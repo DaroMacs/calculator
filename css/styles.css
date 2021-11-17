@@ -1,0 +1,112 @@
+body {
+  background: #e0e5ec;
+  font-family: 'Poppins', sans-serif;
+}
+
+header .nav {
+  min-height: 4rem;
+  overflow: hidden;
+  background: rgb(255, 255, 255);
+}
+
+header .logo h2 {
+  font-size: 16px;
+  display: inline-block;
+}
+header .logo p {
+  font-size: 14px;
+  display: inline-block;
+}
+
+header .logo p {
+  color: #777777;
+}
+
+.nav .logo .name-1 {
+  letter-spacing: 5px;
+  font-size: 25px;
+}
+.nav .logo .name {
+  letter-spacing: 3px;
+  font-size: 17px;
+}
+
+.boot {
+  height: 500px;
+  width: auto;
+}
+
+.desafio {
+  border-top: 5px solid #e0ff00;
+  background: #fff9;
+  box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001,
+    inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001, inset 0px 0px 0px 0px #fff9,
+    inset 0px 0px 0px 0px #0001;
+
+  background: #e0e5ec;
+}
+
+.cards {
+  border-top: 4px solid #e0ff00;
+  border-bottom: 4px solid #e0ff00;
+}
+
+.card-alt {
+  border-bottom: 4px solid #e0ff00;
+  border-top: 4px solid #e0ff00;
+}
+
+.desafio .titulo {
+  color: #b8ca2a;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+
+.card-title {
+  color: #b8ca2a;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+}
+
+.image-styles {
+  width: 100%;
+  height: 20vh;
+  object-fit: cover;
+}
+
+.lista-conf {
+  font-size: 12px;
+}
+
+.list-padding {
+  padding-left: 0;
+}
+
+.lista-negritas {
+  font-weight: 700;
+}
+
+.paragraph {
+  font-size: 12px;
+}
+
+.message {
+  text-decoration: underline;
+  font-weight: 700;
+  background-color: aqua;
+  border-radius: 1rem;
+}
+
+.invalid {
+  text-decoration: none;
+}
+
+.coder {
+  color: #777777;
+  font-size: 11px;
+}
+
+.underline {
+  text-decoration: underline;
+  font-weight: 700;
+}
