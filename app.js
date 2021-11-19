@@ -13,9 +13,17 @@ const inputDias = document.querySelector('#dias');
 const contenedorProductos = document.querySelector('.container .row2');
 const contenedorBtnLimpiar = document.querySelector('.row1');
 const buttonStart = document.querySelector('.start-app');
+const buttonJumpCalc = document.querySelector('#jumpCalc');
 inputCalorias.value = '1';
 let imagen = 1;
 let newImagen = 1;
+
+////// BOTÓN PARA SALTAR A LA CALCULADORA
+
+buttonJumpCalc.addEventListener('click', e => {
+  e.preventDefault();
+  document.getElementById('calculator').scrollIntoView({ behavior: 'smooth' });
+});
 
 buttonStart.addEventListener('click', () => {
   if (inputAlimento.value.length < 3) {
@@ -33,7 +41,7 @@ buttonStart.addEventListener('click', () => {
 const copyCat = () => {
   Swal.fire({
     title: '¡Alimento Agregado!',
-    width: 600,
+    width: 400,
     padding: '3em',
     backdrop: `
       rgba(0,0,123,0.4)
@@ -51,7 +59,6 @@ const crearOptions = () => {
   for (const food of stockFood) {
     let opt = food.alimento;
     let el = document.createElement('option');
-    console.log(el);
     el.textContent = opt;
     el.value = opt;
     selectList.append(el);
