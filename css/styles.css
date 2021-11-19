@@ -1,11 +1,12 @@
 body {
   background: #e0e5ec;
   font-family: 'Poppins', sans-serif;
-  padding-top: 70px;
+  padding-top: 45px;
 }
 .fruits {
-  background-position: center right;
+  min-height: 700px;
   background-repeat: no-repeat;
+  background-position: center right;
 }
 .hero {
   padding-top: 100px;
