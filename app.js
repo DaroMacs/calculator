@@ -10,7 +10,7 @@ let answerText = document.querySelector('#message');
 const inputAlimento = document.querySelector('#alimento');
 const inputCalorias = document.querySelector('#calorias');
 const inputDias = document.querySelector('#dias');
-const contenedorProductos = document.querySelector('.container .row2');
+const contenedorProductos = document.querySelector('.row2');
 const contenedorBtnLimpiar = document.querySelector('.row1');
 const buttonStart = document.querySelector('.start-app');
 const buttonJumpCalc = document.querySelector('#jumpCalc');
@@ -25,15 +25,16 @@ buttonJumpCalc.addEventListener('click', e => {
   document.getElementById('calculator').scrollIntoView({ behavior: 'smooth' });
 });
 
-buttonStart.addEventListener('click', () => {
+buttonStart.addEventListener('click', e => {
+  e.preventDefault();
   if (inputAlimento.value.length < 3) {
     alert('Ingresa un nombre correcto.');
     return; //EARLY RETURN
   }
   $('#results').html(``);
   cambiarImagen();
-  copyCat();
   startApp();
+  copyCat();
 });
 
 ///////////////MODAL AUTOMÁTICO PARA DESPLEGAR DIÁLOGO DE CONFIRMACIÓN
@@ -116,9 +117,9 @@ function startApp() {
   arrayAlimentos.push(new DataAlimento(nombre, consumo, calorias));
   arrayAlimentos[arrayAlimentos.length - 1].calcularCalorias();
   articles = document.createElement('div');
-  articles.classList.add('col-4', 'mb-3');
+  articles.classList.add('col-12', 'col-md-6', 'col-lg-4', 'ms-0', 'mb-3');
   articles.innerHTML = `   
-        <div class="card  cards d-flex flex-column h-100">
+        <div class="card cards d-flex flex-column h-100">
             <img class="image-styles" src="./${newImagen}.jpg" alt="">
             <div class="card-body p-2 pt-0">
                 <h5 class="card-title pb-1 m-0 py-3">Alimento</h5>
@@ -146,7 +147,6 @@ function startApp() {
   inputAlimento.value = '';
   inputCalorias.value = '1';
   inputDias.value = '1';
-
   consumoExcesivo();
   sortConsumoMayor();
 

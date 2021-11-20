@@ -17,50 +17,50 @@
 </head>
 <body>
     <div class="bg-image fruits" style="background-image: url('./fruits.svg');">
-        
+        <div class="contenido-hero">
         <!-- NAVIGATION -->
-    <nav class="navbar fixed-top navbar-light bg-light navbar-expand-md fixed-top mb-0 py-0">
-        <div class="container">
-            <h2 class="navName fw-light mb-0">diet<span class='navName-1'>Calc.</span></h2>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Calculadora</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Acerca de</a>
-                  </li>
-                </ul>
-              </div>
-        </div>
-    </nav>
+            <nav class="navbar fixed-top navbar-light bg-light navbar-expand-md fixed-top mb-0 py-0">
+                <div class="container">
+                    <h2 class="navName fw-light mb-0">diet<span class='navName-1'>Calc.</span></h2>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Calculadora</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Acerca de</a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
    
-
-   
-    <div class="container hero">
-        <div class="row">
-            <div class="col-6">
-            <h2 class="name fw-light mb-3">diet<span class='name-1'>Calc.</span></h2>
-            <p class="about">¿Necesitas medir tu consumo semanal de calorías? <br>Nuestra calculadora te ayuda a saberlo y porder <br>equilibrar tu ingesta diaria.</p>
-            </div>
-            <div class="col-8 text-start pt-3">
-                <a href="#" class="btn btn-outline-primary btn-sm mb-2" id="jumpCalc">Ir a Calculadora</a>
-            </div>
-            <div class="col-8 text-start pt-3">
-                <a href="#" class="btn btn-outline-success btn-sm mb-2">Acerca de</a>
+            <div class="container hero">
+                <div class="row">
+                    <div class="col-6">
+                    <h2 class="name fw-light mb-3">diet<span class='name-1'>Calc.</span></h2>
+                    <p class="about">¿Necesitas medir tu consumo semanal de calorías? <br>Nuestra calculadora te ayuda a saberlo y poder <br>equilibrar tu ingesta diaria.</p>
+                    </div>
+                    <div class="col-8 text-start pt-3">
+                        <a href="#" class="btn btn-primary btn-sm mb-2" id="jumpCalc">Ir a Calculadora</a>
+                    </div>
+                    <div class="col-8 text-start pt-3">
+                        <a href="#" class="btn btn-success btn-sm mb-3">Acerca de</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
     <!-- CALCULATOR -->
 
-    <div class="container calculator col-10 col-lg-8 mb-1" id="calculator">
+    <div class="container calculator col-md-8 col-10 mb-1" id="calculator">
         <div class="row justify-content-center desafio rounded-top rounded-bottom mb-3">
             <div class="col-8 w-100 text-center">
                 <h2 class="titulo  m-0 py-3 pb-0 mb-2">Calculadora de Calorías</h2>
@@ -68,11 +68,11 @@
             <div class="row">
                 <div class="col-6 dynamic">
                     <label for="food">Selecciona tu alimento</label>
-                    <select class='dropdown-list' name="food" id="alimento" type="range">
+                    <select class='dropdown-list' name="food" id="alimento" type="range" style="max-width:100px;">
                         <option value="">Da Click</option>
                     </select>
                     <div>
-                        <a href="https://www.bcn.cl/come_inteligente/tabla_calorias" class="coder">Fuente Base de Datos</a>
+                        <a href="https://www.bcn.cl/come_inteligente/tabla_calorias" class="coder" >Fuente Base de Datos</a>
                     </div>
 
                 <div class="col-12 mt-3">
@@ -95,7 +95,7 @@
     </div> 
 
     <!-- BOTÓN PARA INICIAR CÁLCULO Y SE AGREGA POR JS BOTÓN REINICIAR -->
-        <div class="col-8 w-100 text-center row1">
+        <div class="w-100 text-center row1">
             <a href="#" class="btn btn-outline-primary btn-sm start-app mb-2" >Calcular</a>
             <p class="coder text-center">Da click para empezar</p>                
         </div>
@@ -104,15 +104,16 @@
         </div>     
         </div> 
     </div> 
-</div>
-
-    <div class='container col-sm-12 col-lg-8 mb-3 g-0' id="results">
+    
+    <div class='container col-10 col-md-8 mb-3 g-0' id="results">
     </div>
-
-    <section id='seccion' class="container g-0 col-sm-12 col-lg-8 mb-3">
+    
+    <section id='seccion' class="container col-10 col-md-8 g-0 mb-3">
         <div class="row row2">
         </div>
      </section>
+
+
      
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     </body>
