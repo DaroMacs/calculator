@@ -31,7 +31,11 @@ buttonJumpCalc.addEventListener('click', e => {
 buttonStart.addEventListener('click', e => {
   e.preventDefault();
   if (inputAlimento.value.length < 3) {
-    alert('Ingresa un nombre correcto.');
+    Swal.fire({
+      icon: 'warning',
+      title: 'Oops...',
+      text: '¡Elije un Alimento!',
+    });
     return; //EARLY RETURN
   }
   $('#results').html(``);
@@ -64,7 +68,7 @@ const crearOptionsFood = async () => {
   const data = await respuesta.json();
   dataJSON = data;
 
-  // for (const food of data) {  ---OPCIÓN CON FOR OF
+  // for (const food of data) {  --- EJEMPLO PARA USAR FOR OF
   data.forEach(food => {
     let opt = food.alimento;
     let el = document.createElement('option');
@@ -84,6 +88,7 @@ const agregarCalorias = () => {
     const resultado = dataJSON.filter(aliment => aliment.alimento === alimentoJson);
     caloriaInputJSON = resultado[0].calorias;
 
+    //// PRUEBA CON FOREACH PARA OBTENER CALORIAS DE INPUT DROPDOWN LIST (FUNCIONA)
     // dataJSON.forEach(aliment => {
     //   aliment.alimento === alimentoJson;
     //   caloriaInputJSON = aliment.calorias;
