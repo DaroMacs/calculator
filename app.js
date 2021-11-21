@@ -121,7 +121,10 @@ function cambiarImagen() {
   newImagen = imagen;
 }
 
+// *********************************** INICIO APP ***********************************************************
+// *********************************************************************************************************
 /////// INICIALIZACIÓN DE LA APP DESPUÉS DE HACER CLICK EN EL BOTÓN ////////////////
+
 function startApp() {
   btnLimpiar.classList.add('col-8', 'w-100', 'text-center');
   btnLimpiar.innerHTML = `
