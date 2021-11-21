@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="./css/styles.css">
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script defer src="./fooddb.js"></script>
     <script defer src="./app.js"></script>
     <title>Incorporar Librería - Dario Macedo</title>
 </head>
@@ -67,51 +66,49 @@
             </div> 
             <div class="row">
                 <div class="col-6 dynamic">
-                    <label for="food">Selecciona tu alimento</label>
+                    <label for="food">Selecciona el alimento</label>
                     <select class='dropdown-list' name="food" id="alimento" type="range" style="max-width:100px;">
                         <option value="">Da Click</option>
                     </select>
                     <div>
                         <a href="https://www.bcn.cl/come_inteligente/tabla_calorias" class="coder" >Fuente Base de Datos</a>
                     </div>
-
-                <div class="col-12 mt-3">
-                        <label for="calorias">Elige las Kcalorías del alimento</label>
-                        <input style="max-width:100px;" class="form-control" type="number" name="calorias" min="1" max="1000" id="calorias"></input>
-                </div>
-                <div class="col-6 mt-3 mb-3">
-                        <label for="dias">Consumo semanal en días</label>
-                        <select style="width:100px;" name="dias" id="dias" type="range" min="0" max="1000">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            <option value="6">6</option>
-                            <option value="7">7</option>
-                        </select>
-                </div>               
-        </div>                  
-    </div> 
+                    <div class="col-12 mt-3" id="insertar-calorias-JSON">
+                                                
+                    </div>
+                    <div class="col-6 mt-3 mb-3">
+                            <label for="dias">Consumo semanal en días</label>
+                            <select style="width:100px;" name="dias" id="dias" type="range" min="0" max="1000">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                            </select>
+                    </div>               
+                </div>                  
+            </div> 
 
     <!-- BOTÓN PARA INICIAR CÁLCULO Y SE AGREGA POR JS BOTÓN REINICIAR -->
-        <div class="w-100 text-center row1">
-            <a href="#" class="btn btn-outline-primary btn-sm start-app mb-2" >Calcular</a>
-            <p class="coder text-center">Da click para empezar</p>                
-        </div>
-        <div class="col-8">
-        <p class="text-center message" id="message"></p>
-        </div>     
+            <div class="w-100 text-center row1">
+                <a href="#" class="btn btn-outline-primary btn-sm start-app mb-2" >Calcular</a>
+                <p class="coder text-center">Da click para empezar</p>                
+            </div>
+            <div class="col-8">
+            <p class="text-center message" id="message"></p>
+            </div>     
         </div> 
     </div> 
     
-    <div class='container col-10 col-md-8 mb-3 g-0' id="results">
-    </div>
-    
-    <section id='seccion' class="container col-10 col-md-8 g-0 mb-3">
-        <div class="row row2">
+        <div class='container col-10 col-md-8 mb-3 g-0' id="results">
         </div>
-     </section>
+    
+        <section id='seccion' class="container col-10 col-md-8 g-0 mb-3">
+            <div class="row row2">
+            </div>
+        </section>
 
 
      

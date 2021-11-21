@@ -73,6 +73,14 @@ body {
   background: #e0e5ec;
 }
 
+.calorias-bg {
+  color: rgb(94, 93, 93);
+  display: inline;
+  padding: 5px 5px;
+  background-color: #b8ca2a;
+  border-radius: 5px;
+}
+
 .cards {
   border-top: 4px solid #e0ff00;
   border-bottom: 4px solid #e0ff00;

@@ -1,12 +1,14 @@
 let exceso;
 let arraySorted;
-let numero;
 let articles;
 let totalCalorias;
-let last;
+let dataJSON;
+let caloriaInputJSON;
 let arrayAlimentos = [];
 let btnLimpiar = document.createElement('div');
 let answerText = document.querySelector('#message');
+const caloriasJason = document.querySelector('#insertar-calorias-JSON');
+const divCalorias = document.createElement('div');
 const inputAlimento = document.querySelector('#alimento');
 const inputCalorias = document.querySelector('#calorias');
 const inputDias = document.querySelector('#dias');
@@ -14,7 +16,7 @@ const contenedorProductos = document.querySelector('.row2');
 const contenedorBtnLimpiar = document.querySelector('.row1');
 const buttonStart = document.querySelector('.start-app');
 const buttonJumpCalc = document.querySelector('#jumpCalc');
-inputCalorias.value = '1';
+// inputCalorias.value = '1';
 let imagen = 1;
 let newImagen = 1;
 
@@ -25,6 +27,7 @@ buttonJumpCalc.addEventListener('click', e => {
   document.getElementById('calculator').scrollIntoView({ behavior: 'smooth' });
 });
 
+///// INICIALIZAR LA APP
 buttonStart.addEventListener('click', e => {
   e.preventDefault();
   if (inputAlimento.value.length < 3) {
@@ -37,7 +40,7 @@ buttonStart.addEventListener('click', e => {
   copyCat();
 });
 
-///////////////MODAL AUTOMÁTICO PARA DESPLEGAR DIÁLOGO DE CONFIRMACIÓN
+///////////////MODAL AUTOMÁTICO PARA DESPLEGAR DIÁLOGO DE CONFIRMACIÓN CON SWEET ALERT
 
 const copyCat = () => {
   Swal.fire({
@@ -53,20 +56,55 @@ const copyCat = () => {
   });
 };
 
-///////////////RECORRIENDO LA BASE DE DATOS DE ALIMENTOS y CREANDO OPTIONS EN EL DROPDOWN LIST
+///////////////RECORRIENDO LA BASE DE DATOS JSON CON ASYNC/AWAIT DE ALIMENTOS y CREANDO OPTIONS EN EL DROPDOWN LIST
 const selectList = document.querySelector('.dropdown-list');
 
-const crearOptions = () => {
-  for (const food of stockFood) {
+const crearOptionsFood = async () => {
+  const respuesta = await fetch('./fooddb.json');
+  const data = await respuesta.json();
+  dataJSON = data;
+
+  // for (const food of data) {  ---OPCIÓN CON FOR OF
+  data.forEach(food => {
     let opt = food.alimento;
     let el = document.createElement('option');
     el.textContent = opt;
     el.value = opt;
     selectList.append(el);
-  }
+  });
 };
+crearOptionsFood();
 
-crearOptions();
+//////// AGREGAR AL DOM EN LA CALCULADORA LAS CALORIAS DEL ALIMENTO ELEGIDO DEL DROPLIST
+
+const agregarCalorias = () => {
+  inputAlimento.addEventListener('change', () => {
+    let alimentoJson = inputAlimento.value;
+    //// PRUEBA CON FILTER PARA OBTENER CALORIAS DE INPUT DROPDOWN LIST (FUNCIONA)
+    const resultado = dataJSON.filter(aliment => aliment.alimento === alimentoJson);
+    caloriaInputJSON = resultado[0].calorias;
+
+    // dataJSON.forEach(aliment => {
+    //   aliment.alimento === alimentoJson;
+    //   caloriaInputJSON = aliment.calorias;
+    // });
+
+    //// PRUEBA CON FOR PARA OBTENER CALORIAS DE INPUT DROPDOWN LIST (FUNCIONA)
+    // for (let i = 0; i < dataJSON.length; i++) {
+    //   if (alimentoJson === dataJSON[i].alimento) {
+    //     caloriaInputJSON = dataJSON[i].calorias;
+    //   }
+    // }
+
+    divCalorias.innerHTML = `
+                <div>
+                  <p>Calorías del alimento seleccionado:</p>
+                  <p class="calorias-bg">${caloriaInputJSON} KCal.</p>
+                </div>`;
+    caloriasJason.append(divCalorias);
+  });
+};
+agregarCalorias();
 
 //////////FUNCIÓN PARA DARLE ALEATORIEDAD A LAS IMÁGENES DE LAS CARDS SIN QUE SE REPITA LA ÚLTIMA
 
@@ -98,7 +136,7 @@ function startApp() {
   ////// CLASE PARA CREAR LOS ALIMENTOS
 
   let nombre = inputAlimento.value;
-  let calorias = parseInt(inputCalorias.value);
+  let calorias = caloriaInputJSON;
   let consumo = parseInt(inputDias.value);
 
   class DataAlimento {
@@ -145,7 +183,7 @@ function startApp() {
   }
 
   inputAlimento.value = '';
-  inputCalorias.value = '1';
+  caloriasJason.innerHTML = '';
   inputDias.value = '1';
   consumoExcesivo();
   sortConsumoMayor();
@@ -153,7 +191,7 @@ function startApp() {
   ////**************AGREGANDO AL DOM CON JQUERY
 
   function consumoExcesivo() {
-    exceso = arrayAlimentos.filter(alimento => alimento.totalCalorias > 5);
+    exceso = arrayAlimentos.filter(alimento => alimento.totalCalorias > 500);
     if (exceso.length > 0) {
       $('#results').append(`
         <div class="row g-0 justify-content-center desafio rounded-top rounded-bottom mb-3" id="lista">
