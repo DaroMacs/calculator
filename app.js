@@ -15,16 +15,17 @@ const inputDias = document.querySelector('#dias');
 const contenedorProductos = document.querySelector('.row2');
 const contenedorBtnLimpiar = document.querySelector('.row1');
 const buttonStart = document.querySelector('.start-app');
-const buttonJumpCalc = document.querySelector('#jumpCalc');
-// inputCalorias.value = '1';
+const buttonJumpCalc = document.querySelectorAll('.jumpCalc');
+
 let imagen = 1;
 let newImagen = 1;
 
-////// BOTÓN PARA SALTAR A LA CALCULADORA
-
-buttonJumpCalc.addEventListener('click', e => {
-  e.preventDefault();
-  document.getElementById('calculator').scrollIntoView({ behavior: 'smooth' });
+////// BOTÓN PARA SALTAR A LA CALCULADORA CON DISTINTOS BOTONES
+buttonJumpCalc.forEach(button => {
+  button.addEventListener('click', e => {
+    e.preventDefault();
+    document.getElementById('calculator').scrollIntoView({ behavior: 'smooth' });
+  });
 });
 
 ///// INICIALIZAR LA APP
@@ -66,8 +67,8 @@ const selectList = document.querySelector('.dropdown-list');
 const crearOptionsFood = async () => {
   const respuesta = await fetch('./fooddb.json');
   const data = await respuesta.json();
+  console.log(data);
   dataJSON = data;
-
   // for (const food of data) {  --- EJEMPLO PARA USAR FOR OF
   data.forEach(food => {
     let opt = food.alimento;
@@ -113,19 +114,19 @@ agregarCalorias();
 
 //////////FUNCIÓN PARA DARLE ALEATORIEDAD A LAS IMÁGENES DE LAS CARDS SIN QUE SE REPITA LA ÚLTIMA
 
-function cambiarImagen() {
+const cambiarImagen = () => {
   imagen = Math.floor(Math.random() * 3 + 1);
   while (newImagen === imagen) {
     imagen = Math.floor(Math.random() * 3 + 1);
   }
   newImagen = imagen;
-}
+};
 
 // *********************************** INICIO APP ***********************************************************
 // *********************************************************************************************************
 /////// INICIALIZACIÓN DE LA APP DESPUÉS DE HACER CLICK EN EL BOTÓN ////////////////
 
-function startApp() {
+const startApp = () => {
   btnLimpiar.classList.add('col-8', 'w-100', 'text-center');
   btnLimpiar.innerHTML = `
             <a href="#" class="btn btn-outline-primary btn-sm clean-app mb-2">Reiniciar Datos</a>
@@ -154,10 +155,7 @@ function startApp() {
       this.calorias = calorias;
       this.totalCalorias;
     }
-    calcularCalorias() {
-      this.totalCalorias = this.consumo * this.calorias;
-      return;
-    }
+    calcularCalorias = () => (this.totalCalorias = this.consumo * this.calorias);
   }
 
   arrayAlimentos.push(new DataAlimento(nombre, consumo, calorias));
@@ -228,7 +226,7 @@ function startApp() {
 
   ///// FUNCIÓN PARA BUSCAR KCAL ELEVADAS
 
-  // function consumoExcesivo() {
+  // const consumoExcesivo = () => {
   //   exceso = arrayAlimentos.filter(alimento => alimento.totalCalorias > 5);
   //   console.log('Tienes un exceso calórico de los siguientes alimentos:');
   //   for (j = 0; j < exceso.length; j++) {
@@ -247,4 +245,4 @@ function startApp() {
       console.log(`${alimento.nombre} con un consumo semanal de ${alimento.totalCalorias}Kcal.`);
     }
   }
-}
+};
