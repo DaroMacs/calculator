@@ -1,1993 +1,2491 @@
 [
   {
+    "id": 1,
     "alimento": "Aceite (10 cc)",
     "calorias": 90
   },
   {
+    "id": 2,
     "alimento": "Aceituna (17 gr.)",
     "calorias": 35
   },
   {
+    "id": 3,
     "alimento": "Acelgas cocidas (100 gr)",
     "calorias": 23
   },
   {
+    "id": 4,
     "alimento": "Acelgas jugo (100 gr)",
     "calorias": 8
   },
   {
+    "id": 5,
     "alimento": "Achicoria (100 gr)",
     "calorias": 13
   },
   {
+    "id": 6,
     "alimento": "Agua Mineral (100 cc)",
     "calorias": 0
   },
   {
+    "id": 7,
     "alimento": "Aguardiente (100 cc)",
     "calorias": 280
   },
   {
+    "id": 8,
     "alimento": "Aguardiente de fruta (100 cc)",
     "calorias": 350
   },
   {
+    "id": 9,
     "alimento": "Agua Tónica (100 cc)",
     "calorias": 39
   },
   {
+    "id": 10,
     "alimento": "Ajiaco (1 Plato)",
     "calorias": 300
   },
   {
+    "id": 11,
     "alimento": "Ají Verde (1 Unidad)",
     "calorias": 16
   },
   {
+    "id": 12,
     "alimento": "Albacora a la Plancha (1 Porción)",
     "calorias": 200
   },
   {
+    "id": 13,
     "alimento": "Albacora al Vapor (1 Plato)",
     "calorias": 162
   },
   {
+    "id": 14,
     "alimento": "Albóndiga (1 Compota)",
     "calorias": 165
   },
   {
+    "id": 15,
     "alimento": "Alcachofa (1 Taza)",
     "calorias": 58
   },
   {
+    "id": 16,
     "alimento": "Alcachofa mayo (1 Porción)",
     "calorias": 185
   },
   {
+    "id": 17,
     "alimento": "Alcachofa Vinagreta (1 Compota)",
     "calorias": 23
   },
   {
+    "id": 18,
     "alimento": "Almejas (1 Plato)",
     "calorias": 78
   },
   {
+    "id": 19,
     "alimento": "Almejas al Matico (1 Porción)",
     "calorias": 186
   },
   {
+    "id": 20,
     "alimento": "Almejas al natural (1 Plato)",
     "calorias": 115
   },
   {
+    "id": 21,
     "alimento": "Almejas en conserva (1 Cubo)",
     "calorias": 182
   },
   {
+    "id": 22,
     "alimento": "Almendras (1 Cubo)",
     "calorias": 11
   },
   {
+    "id": 23,
     "alimento": "Almendras (1 Plato)",
     "calorias": 641
   },
   {
+    "id": 24,
     "alimento": "Anchoas en conservas (1 Unidad)",
     "calorias": 100
   },
   {
+    "id": 25,
     "alimento": "Anís (1 Plato)",
     "calorias": 185
   },
   {
+    "id": 26,
     "alimento": "Apio (1 Plato)",
     "calorias": 17
   },
   {
+    "id": 27,
     "alimento": "Arroz a la Valenciana (1 Porción)",
     "calorias": 594
   },
   {
+    "id": 28,
     "alimento": "Arroz Cocido (1 Porción)",
     "calorias": 250
   },
   {
+    "id": 29,
     "alimento": "Arroz con Leche (1 Plato)",
     "calorias": 264
   },
   {
+    "id": 30,
     "alimento": "Arroz Crudo (1 Plato)",
     "calorias": 72
   },
   {
+    "id": 31,
     "alimento": "Arroz Graneado (1 Plato)",
     "calorias": 335
   },
   {
+    "id": 32,
     "alimento": "Arvejas (1 Plato)",
     "calorias": 60
   },
   {
+    "id": 33,
     "alimento": "Arvejas (1 Porción)",
     "calorias": 180
   },
   {
+    "id": 34,
     "alimento": "Atún (1/2 Taza)",
     "calorias": 470
   },
   {
+    "id": 35,
     "alimento": "Atún con Salsa Verde (1 Porción)",
     "calorias": 150
   },
   {
+    "id": 36,
     "alimento": "Atún en aceite (1 Compota)",
     "calorias": 106
   },
   {
+    "id": 37,
     "alimento": "Avellanas (1/2 Taza)",
     "calorias": 13
   },
   {
+    "id": 38,
     "alimento": "Aves de caza (General) (1 Plato)",
     "calorias": 120
   },
   {
+    "id": 39,
     "alimento": "Azúcar (1 Unidad)",
     "calorias": 20
   },
   {
+    "id": 40,
     "alimento": "Bacalao a la Parrilla (1 Porción)",
     "calorias": 180
   },
   {
+    "id": 41,
     "alimento": "Batidos y Flanes (yogurt) (1 Porción)",
     "calorias": 182
   },
   {
+    "id": 42,
     "alimento": "Bavarois (1 Porción)",
     "calorias": 145
   },
   {
+    "id": 43,
     "alimento": "Berenjenas (1 Plato)",
     "calorias": 25
   },
   {
+    "id": 44,
     "alimento": "Berlín (1 Plato)",
     "calorias": 591
   },
   {
+    "id": 45,
     "alimento": "Berro (1 Plato)",
     "calorias": 13
   },
   {
+    "id": 46,
     "alimento": "Betarraga (1 Compota)",
     "calorias": 39
   },
   {
+    "id": 47,
     "alimento": "Betarraga Jugo (1 Porción)",
     "calorias": 36
   },
   {
+    "id": 48,
     "alimento": "Bilz (1 Plato)",
     "calorias": 36
   },
   {
+    "id": 49,
     "alimento": "Bizcochuelo (1 Porción)",
     "calorias": 201
   },
   {
+    "id": 50,
     "alimento": "Bistec a la Plancha (1 Trozo Chico)",
     "calorias": 180
   },
   {
+    "id": 51,
     "alimento": "Bistec Alemán (1 Porción)",
     "calorias": 159
   },
   {
+    "id": 52,
     "alimento": "Bistec a lo Pobre (1 Porción)",
     "calorias": 796
   },
   {
+    "id": 53,
     "alimento": "Bistec en Aceite (1 Plato)",
     "calorias": 225
   },
   {
+    "id": 54,
     "alimento": "Bombones (1 Porción)",
     "calorias": 36
   },
   {
+    "id": 55,
     "alimento": "Brandy (1 Compota)",
     "calorias": 65
   },
   {
+    "id": 56,
     "alimento": "Brazo de Reina (1 Chica)",
     "calorias": 150
   },
   {
+    "id": 57,
     "alimento": "Brloches (1 Porción)",
     "calorias": 272
   },
   {
+    "id": 58,
     "alimento": "Bruselas (1 Porción)",
     "calorias": 36
   },
   {
+    "id": 59,
     "alimento": "Budín de Verduras (1 Porción)",
     "calorias": 208
   },
   {
+    "id": 60,
     "alimento": "Caldillo de Pescado (1 Porción)",
     "calorias": 310
   },
   {
+    "id": 61,
     "alimento": "Caldo de ave (1 Plato)",
     "calorias": 32
   },
   {
+    "id": 62,
     "alimento": "Caldo de carne ( 1 Plato)",
     "calorias": 28
   },
   {
+    "id": 63,
     "alimento": "Caldo puro ( 1 Compota)",
     "calorias": 20
   },
   {
+    "id": 64,
     "alimento": "Calugas ( 1 Compota)",
     "calorias": 130
   },
   {
+    "id": 65,
     "alimento": "Callampas Frescas (1 Plato )",
     "calorias": 24
   },
   {
+    "id": 66,
     "alimento": "Camarones (cocidos) (1 Porción )",
     "calorias": 100
   },
   {
+    "id": 67,
     "alimento": "Camote (1 Porción)",
     "calorias": 130
   },
   {
+    "id": 68,
     "alimento": "Canapés 1/m (1 Porción )",
     "calorias": 60
   },
   {
+    "id": 69,
     "alimento": "Caqui (1 Porción )",
     "calorias": 64
   },
   {
+    "id": 70,
     "alimento": "Caramelos (1 Plato)",
     "calorias": 23
   },
   {
+    "id": 71,
     "alimento": "Carbonada con carne (1 Porción)",
     "calorias": 377
   },
   {
+    "id": 72,
     "alimento": "Carbonada de verdura (1 Porción)",
     "calorias": 240
   },
   {
+    "id": 73,
     "alimento": "Carlota rusa ( 1 Plato)",
     "calorias": 235
   },
   {
+    "id": 74,
     "alimento": "Carne al jugo (1 Porción  )",
     "calorias": 250
   },
   {
+    "id": 75,
     "alimento": "Carne asada (1 Plato )",
     "calorias": 289
   },
   {
+    "id": 76,
     "alimento": "Carne Cazuela (1 Unidad )",
     "calorias": 191
   },
   {
+    "id": 77,
     "alimento": "Carne molida (1 Porción )",
     "calorias": 65
   },
   {
+    "id": 78,
     "alimento": "Castañas (1 Unidad)",
     "calorias": 11
   },
   {
+    "id": 79,
     "alimento": "Castañas Cocidas (1 Porción )",
     "calorias": 220
   },
   {
+    "id": 80,
     "alimento": "Caviar (1 Unidad )",
     "calorias": 125
   },
   {
+    "id": 81,
     "alimento": "Caviar (1 Porción )",
     "calorias": 38
   },
   {
+    "id": 82,
     "alimento": "Cazuela Albóndiga (1 Porción)",
     "calorias": 310
   },
   {
+    "id": 83,
     "alimento": "Cazuela Ave (1 Porción )",
     "calorias": 340
   },
   {
+    "id": 84,
     "alimento": "Cazuela Cerdo (1 Porción  )",
     "calorias": 450
   },
   {
+    "id": 85,
     "alimento": "Cazuela Cordero (1 Porción )",
     "calorias": 425
   },
   {
+    "id": 86,
     "alimento": "Cazuela Vacuno (1 Porción )",
     "calorias": 417
   },
   {
+    "id": 87,
     "alimento": "Cebolla (1 Torreja )",
     "calorias": 25
   },
   {
+    "id": 88,
     "alimento": "Cebolla Ensalada (1 Plato )",
     "calorias": 211
   },
   {
+    "id": 89,
     "alimento": "Cebollines (1 Plato )",
     "calorias": 17
   },
   {
+    "id": 90,
     "alimento": "Centolla Cocida (1 Compota )",
     "calorias": 120
   },
   {
+    "id": 91,
     "alimento": "Cerezas (jugo) (1 Porción )",
     "calorias": 64
   },
   {
+    "id": 92,
     "alimento": "Cerezas o Guindas (1 Porción)",
     "calorias": 3
   },
   {
+    "id": 93,
     "alimento": "Cerezas o Guindas (1 Porción )",
     "calorias": 52
   },
   {
+    "id": 94,
     "alimento": "Cerveza (1 Porción  )",
     "calorias": 96
   },
   {
+    "id": 95,
     "alimento": "Ciruelas (jugo) (1 Porción )",
     "calorias": 84
   },
   {
+    "id": 96,
     "alimento": "Ciruelas (deshidratadas) (1 Compota )",
     "calorias": 49
   },
   {
+    "id": 97,
     "alimento": "Ciruelas Frescas (1 Plato )",
     "calorias": 30
   },
   {
+    "id": 98,
     "alimento": "Clara de Huevo (1 Plato )",
     "calorias": 14
   },
   {
+    "id": 99,
     "alimento": "Coca Cola (1 Plato )",
     "calorias": 41
   },
   {
+    "id": 100,
     "alimento": "Coco (1 Plato )",
     "calorias": 12
   },
   {
+    "id": 101,
     "alimento": "Cocoa ( 1 Taza)",
     "calorias": 11
   },
   {
+    "id": 102,
     "alimento": "Coco Rallado (1 taza )",
     "calorias": 420
   },
   {
+    "id": 103,
     "alimento": "Cóctel Cuba Libre (1 Unid. Reg. )",
     "calorias": 220
   },
   {
+    "id": 104,
     "alimento": "Cochayuyo (1/2 ch)",
     "calorias": 50
   },
   {
+    "id": 105,
     "alimento": "Coñac (1 porción)",
     "calorias": 122
   },
   {
+    "id": 106,
     "alimento": "Coñac Francés (1 porción)",
     "calorias": 196
   },
   {
+    "id": 107,
     "alimento": "Coliflor (100 gr.)",
     "calorias": 24
   },
   {
+    "id": 108,
     "alimento": "Compota Ciruela con Mote (na)",
     "calorias": 234
   },
   {
+    "id": 109,
     "alimento": "Compota de Fruta (90 gr.)",
     "calorias": 90
   },
   {
+    "id": 110,
     "alimento": "Compota de Huesillo c/m (221 gr.)",
     "calorias": 221
   },
   {
+    "id": 111,
     "alimento": "Conejo Asado (120 gr.)",
     "calorias": 170
   },
   {
+    "id": 112,
     "alimento": "Congrio al Vapor (150 gr.)",
     "calorias": 102
   },
   {
+    "id": 113,
     "alimento": "Congrio Frito (200 gr.)",
     "calorias": 280
   },
   {
+    "id": 114,
     "alimento": "Corvina al Vapor (150 gr.)",
     "calorias": 138
   },
   {
+    "id": 115,
     "alimento": "Costillas Asadas (150 gr.)",
     "calorias": 200
   },
   {
+    "id": 116,
     "alimento": "Crema batida (20 gr.)",
     "calorias": 66
   },
   {
+    "id": 117,
     "alimento": "Crema de Cacao (30 cc)",
     "calorias": 90
   },
   {
+    "id": 118,
     "alimento": "Crema de Menta (30 cc)",
     "calorias": 90
   },
   {
+    "id": 119,
     "alimento": "Crema deshidratada (66 gr.)",
     "calorias": 20
   },
   {
+    "id": 120,
     "alimento": "Crema Nestlé (20 gr.)",
     "calorias": 50
   },
   {
+    "id": 121,
     "alimento": "Criadillas (100 gr.)",
     "calorias": 67
   },
   {
+    "id": 122,
     "alimento": "Cuaquer con leche (na)",
     "calorias": 235
   },
   {
+    "id": 123,
     "alimento": "Champaña (100 cc)",
     "calorias": 70
   },
   {
+    "id": 124,
     "alimento": "Champaña (100 cc)",
     "calorias": 144
   },
   {
+    "id": 125,
     "alimento": "Champiñones (na)",
     "calorias": 20
   },
   {
+    "id": 126,
     "alimento": "Champiñones al natural (200 gr.)",
     "calorias": 74
   },
   {
+    "id": 127,
     "alimento": "Charqui (100 gr.)",
     "calorias": 571
   },
   {
+    "id": 128,
     "alimento": "Charquicán (na)",
     "calorias": 383
   },
   {
+    "id": 129,
     "alimento": "Chicle (na)",
     "calorias": 8
   },
   {
+    "id": 130,
     "alimento": "Chirimoya (130 gr.)",
     "calorias": 73
   },
   {
+    "id": 131,
     "alimento": "Choclo entero (360 gr.)",
     "calorias": 96
   },
   {
+    "id": 132,
     "alimento": "Choclo picado (60 gr.)",
     "calorias": 58
   },
   {
+    "id": 133,
     "alimento": "Chocolate (17 gr.)",
     "calorias": 76
   },
   {
+    "id": 134,
     "alimento": "Chocolate dulce (100 gr.)",
     "calorias": 449
   },
   {
+    "id": 135,
     "alimento": "Chocolate leche (100 gr.)",
     "calorias": 527
   },
   {
+    "id": 136,
     "alimento": "Chocolate salsa (17 gr.)",
     "calorias": 76
   },
   {
+    "id": 137,
     "alimento": "Cholgas (100 gr.)",
     "calorias": 68
   },
   {
+    "id": 138,
     "alimento": "Cholgas en conservas (100 gr.)",
     "calorias": 131
   },
   {
+    "id": 139,
     "alimento": "Choricillos (15 gr.)",
     "calorias": 45
   },
   {
+    "id": 140,
     "alimento": "Choritos (100 gr.)",
     "calorias": 65
   },
   {
+    "id": 141,
     "alimento": "Choritos en conservas (100 gr.)",
     "calorias": 96
   },
   {
+    "id": 142,
     "alimento": "Chuletas de cerdo (200 gr.)",
     "calorias": 376
   },
   {
+    "id": 143,
     "alimento": "Chuletas de cordero (200 gr.)",
     "calorias": 241
   },
   {
+    "id": 144,
     "alimento": "Chuletas de ternera (200 gr.)",
     "calorias": 260
   },
   {
+    "id": 145,
     "alimento": "Churros (40 gr.)",
     "calorias": 180
   },
   {
+    "id": 146,
     "alimento": "Damasco (100 gr)",
     "calorias": 41
   },
   {
+    "id": 147,
     "alimento": "Damasco (100 cc)",
     "calorias": 65
   },
   {
+    "id": 148,
     "alimento": "Dulces Chileno (50 gr.)",
     "calorias": 204
   },
   {
+    "id": 149,
     "alimento": "Dulces de membrillo (50 gr.)",
     "calorias": 100
   },
   {
+    "id": 150,
     "alimento": "Durazno (130 gr.)",
     "calorias": 48
   },
   {
+    "id": 151,
     "alimento": "Durazno en conserva (na)",
     "calorias": 80
   },
   {
+    "id": 152,
     "alimento": "Durazno al jugo (85 gr.)",
     "calorias": 58
   },
   {
+    "id": 153,
     "alimento": "Durazno al jugo (100 gr.)",
     "calorias": 80
   },
   {
+    "id": 154,
     "alimento": "Durazno al jugo (560 gr.)",
     "calorias": 381
   },
   {
+    "id": 155,
     "alimento": "Empanada frita Pino (100 gr.)",
     "calorias": 347
   },
   {
+    "id": 156,
     "alimento": "Empanada frita Queso (100 gr)",
     "calorias": 315
   },
   {
+    "id": 157,
     "alimento": "Empanada Horno (200 gr)",
     "calorias": 400
   },
   {
+    "id": 158,
     "alimento": "Ensaladas porotos c/cebolla (na)",
     "calorias": 211
   },
   {
+    "id": 159,
     "alimento": "Ensalada rusa (na)",
     "calorias": 305
   },
   {
+    "id": 160,
     "alimento": "Erizos (100 gr.)",
     "calorias": 106
   },
   {
+    "id": 161,
     "alimento": "Escalopa de vacuno (100 gr.)",
     "calorias": 300
   },
   {
+    "id": 162,
     "alimento": "Escarola (100 gr.)",
     "calorias": 16
   },
   {
+    "id": 163,
     "alimento": "Espárragos (100 gr.)",
     "calorias": 15
   },
   {
+    "id": 164,
     "alimento": "Espárragos trozos (350 gr.)",
     "calorias": 53
   },
   {
+    "id": 165,
     "alimento": "Espárragos puntas (360 gr.)",
     "calorias": 54
   },
   {
+    "id": 166,
     "alimento": "Espárragos limoneta (na)",
     "calorias": 175
   },
   {
+    "id": 167,
     "alimento": "Espinacas cocidas (100 gr.)",
     "calorias": 21
   },
   {
+    "id": 168,
     "alimento": "Espinacas crudas (40 gr.)",
     "calorias": 14
   },
   {
+    "id": 169,
     "alimento": "Estofado de cordero (na)",
     "calorias": 235
   },
   {
+    "id": 170,
     "alimento": "Estofado de ave (na)",
     "calorias": 265
   },
   {
+    "id": 171,
     "alimento": "Fanta (100cc)",
     "calorias": 60
   },
   {
+    "id": 172,
     "alimento": "Fiambres en general (30 gr)",
     "calorias": 78
   },
   {
+    "id": 173,
     "alimento": "Fideos crudos (20 gr.)",
     "calorias": 72
   },
   {
+    "id": 174,
     "alimento": "Filete asado (250 gr.)",
     "calorias": 360
   },
   {
+    "id": 175,
     "alimento": "Filete Miñón (170 gr.)",
     "calorias": 250
   },
   {
+    "id": 176,
     "alimento": "Flan de leche (na)",
     "calorias": 245
   },
   {
+    "id": 177,
     "alimento": "Flan de verdura (na)",
     "calorias": 150
   },
   {
+    "id": 178,
     "alimento": "Frambuesa (150 gr.)",
     "calorias": 72
   },
   {
+    "id": 179,
     "alimento": "Fricasé (na)",
     "calorias": 453
   },
   {
+    "id": 180,
     "alimento": "Fritos de verdura (na)",
     "calorias": 289
   },
   {
+    "id": 181,
     "alimento": "Fruta confitada (na)",
     "calorias": 35
   },
   {
+    "id": 182,
     "alimento": "Frutilla (150 gr.)",
     "calorias": 54
   },
   {
+    "id": 183,
     "alimento": "Frutillas con azúcar (na)",
     "calorias": 120
   },
   {
+    "id": 184,
     "alimento": "Frutillas con crema (na)",
     "calorias": 150
   },
   {
+    "id": 185,
     "alimento": "Galletas cream cracker (4 gr.)",
     "calorias": 17
   },
   {
+    "id": 186,
     "alimento": "Galletas de agua (8 gr.)",
     "calorias": 34
   },
   {
+    "id": 187,
     "alimento": "Galletas de limón (7 gr.)",
     "calorias": 31
   },
   {
+    "id": 188,
     "alimento": "Galletas de monito (3 gr.)",
     "calorias": 16
   },
   {
+    "id": 189,
     "alimento": "Galletas de oblea (7 gr.)",
     "calorias": 41
   },
   {
+    "id": 190,
     "alimento": "Galletas de soda (10 gr.)",
     "calorias": 44
   },
   {
+    "id": 191,
     "alimento": "Galletas de triton (10 gr.)",
     "calorias": 47
   },
   {
+    "id": 192,
     "alimento": "Galletas de vino (9 gr.)",
     "calorias": 38
   },
   {
+    "id": 193,
     "alimento": "Garbanzos cocidos (70 gr.)",
     "calorias": 234
   },
   {
+    "id": 194,
     "alimento": "Garbanzos con tocino (na)",
     "calorias": 473
   },
   {
+    "id": 195,
     "alimento": "Ginebra o Gin (30 cc)",
     "calorias": 65
   },
   {
+    "id": 196,
     "alimento": "Ginger Ale (100 cc)",
     "calorias": 39
   },
   {
+    "id": 197,
     "alimento": "Gomitas dulces (28 gr.)",
     "calorias": 100
   },
   {
+    "id": 198,
     "alimento": "Goulach (na)",
     "calorias": 260
   },
   {
+    "id": 199,
     "alimento": "Granada (200 gr.)",
     "calorias": 36
   },
   {
+    "id": 200,
     "alimento": "Guayaba (150 gr.)",
     "calorias": 50
   },
   {
+    "id": 201,
     "alimento": "Guindas (70 gr.)",
     "calorias": 24
   },
   {
+    "id": 202,
     "alimento": "Guindas al jugo (560 gr.)",
     "calorias": 1316
   },
   {
+    "id": 203,
     "alimento": "Guatitas (120 gr.)",
     "calorias": 140
   },
   {
+    "id": 204,
     "alimento": "Hígado bistec (150 gr.)",
     "calorias": 260
   },
   {
+    "id": 205,
     "alimento": "Habas (150 gr.)",
     "calorias": 125
   },
   {
+    "id": 206,
     "alimento": "Habas (4 gr.)",
     "calorias": 4
   },
   {
+    "id": 207,
     "alimento": "Hamburguesas (150 gr.)",
     "calorias": 224
   },
   {
+    "id": 208,
     "alimento": "Harina de leguminosas (17 gr.)",
     "calorias": 59
   },
   {
+    "id": 209,
     "alimento": "Harina de leguminosas (25 gr.)",
     "calorias": 87
   },
   {
+    "id": 210,
     "alimento": "Harina Tostada c/leche (na)",
     "calorias": 293
   },
   {
+    "id": 211,
     "alimento": "Helado de agua (100 gr.)",
     "calorias": 147
   },
   {
+    "id": 212,
     "alimento": "Helado de leche (100 gr.)",
     "calorias": 217
   },
   {
+    "id": 213,
     "alimento": "Hígado de ave (120 gr.)",
     "calorias": 135
   },
   {
+    "id": 214,
     "alimento": "Hígado de Cerdo (120 gr.)",
     "calorias": 160
   },
   {
+    "id": 215,
     "alimento": "Hígado de Cordero (120 gr.)",
     "calorias": 140
   },
   {
+    "id": 216,
     "alimento": "Hígado de Vacuno (120 gr.)",
     "calorias": 175
   },
   {
+    "id": 217,
     "alimento": "Higos (20 gr.)",
     "calorias": 49
   },
   {
+    "id": 218,
     "alimento": "Higos frescos y brevas (50 gr.)",
     "calorias": 42
   },
   {
+    "id": 219,
     "alimento": "Huevo a la copa o duro (50 gr.)",
     "calorias": 76
   },
   {
+    "id": 220,
     "alimento": "Huevo con fiambre (65 gr.)",
     "calorias": 127
   },
   {
+    "id": 221,
     "alimento": "Huevo frito o revuelto (53 gr.)",
     "calorias": 108
   },
   {
+    "id": 222,
     "alimento": "Huevo con queso (60 gr.)",
     "calorias": 136
   },
   {
+    "id": 223,
     "alimento": "Huevo con tocino (55 gr.)",
     "calorias": 150
   },
   {
+    "id": 224,
     "alimento": "Huevo de Codorniz (25 gr.)",
     "calorias": 40
   },
   {
+    "id": 225,
     "alimento": "Huesillos (20 gr.)",
     "calorias": 40
   },
   {
+    "id": 226,
     "alimento": "Humitas (na)",
     "calorias": 165
   },
   {
+    "id": 227,
     "alimento": "Jaivas (100 gr.)",
     "calorias": 93
   },
   {
+    "id": 228,
     "alimento": "Jalea con fruta (na)",
     "calorias": 140
   },
   {
+    "id": 229,
     "alimento": "Jalea con leche (na)",
     "calorias": 174
   },
   {
+    "id": 230,
     "alimento": "Jalea sola (na)",
     "calorias": 85
   },
   {
+    "id": 231,
     "alimento": "Jamón (36 gr.)",
     "calorias": 91
   },
   {
+    "id": 232,
     "alimento": "Jamón con palta y lechuga (na)",
     "calorias": 260
   },
   {
+    "id": 233,
     "alimento": "Jamón de pollo (100 gr.)",
     "calorias": 92
   },
   {
+    "id": 234,
     "alimento": "Jamón con papas mayo (na)",
     "calorias": 340
   },
   {
+    "id": 235,
     "alimento": "Jerez (100 cc)",
     "calorias": 127
   },
   {
+    "id": 236,
     "alimento": "Jugo fruta (100 cc)",
     "calorias": 50
   },
   {
+    "id": 237,
     "alimento": "Jurel al vapor (150 cc)",
     "calorias": 194
   },
   {
+    "id": 238,
     "alimento": " Kéfir ( 100 cc)",
     "calorias": 50
   },
   {
+    "id": 239,
     "alimento": " Kuchen ( 100 gr.)",
     "calorias": 225
   },
   {
+    "id": 240,
     "alimento": " Langostino langosta ( 100gr)",
     "calorias": 113
   },
   {
+    "id": 241,
     "alimento": " Lasaña (na)",
     "calorias": 506
   },
   {
+    "id": 242,
     "alimento": " Leche asada (na)",
     "calorias": 140
   },
   {
+    "id": 243,
     "alimento": " Leche condensada ( 20 gr.)",
     "calorias": 61
   },
   {
+    "id": 244,
     "alimento": " Leche con Milo ( 200 cc)",
     "calorias": 196
   },
   {
+    "id": 245,
     "alimento": " Leche con Plátano ( 200 cc)",
     "calorias": 203
   },
   {
+    "id": 246,
     "alimento": " Leche con sabor ( 200 cc)",
     "calorias": 148
   },
   {
+    "id": 247,
     "alimento": " Leche de Cabra ( 200 cc)",
     "calorias": 140
   },
   {
+    "id": 248,
     "alimento": " Leche de Oveja ( 200 cc)",
     "calorias": 220
   },
   {
+    "id": 249,
     "alimento": "Leche descremada líquida ( 200 cc)",
     "calorias": 85
   },
   {
+    "id": 250,
     "alimento": "Leche descremada polvo ( 15 gr.)",
     "calorias": 55
   },
   {
+    "id": 251,
     "alimento": "Leche entera líquida ( 10 cc)",
     "calorias": 6
   },
   {
+    "id": 252,
     "alimento": "Leche entera líquida ( 200 cc)",
     "calorias": 120
   },
   {
+    "id": 253,
     "alimento": "Leche entera polvo ( 15 gr.)",
     "calorias": 75
   },
   {
+    "id": 254,
     "alimento": "Leche evaporada ( 20 gr)",
     "calorias": 28
   },
   {
+    "id": 255,
     "alimento": "Leche nevada (na)",
     "calorias": 220
   },
   {
+    "id": 256,
     "alimento": "Lima (10cc)",
     "calorias": 4
   },
   {
+    "id": 257,
     "alimento": "Limón (100 cc)",
     "calorias": 50
   },
   {
+    "id": 258,
     "alimento": "Limón ( 10 cc)",
     "calorias": 5
   },
   {
+    "id": 259,
     "alimento": "Limonada  (200 cc )",
     "calorias": 50
   },
   {
+    "id": 260,
     "alimento": "Lechuga  (100 gr )",
     "calorias": 17
   },
   {
+    "id": 261,
     "alimento": "Lechuga picada  (40 gr )",
     "calorias": 7
   },
   {
+    "id": 262,
     "alimento": "Lengua de cerdo  (120 gr )",
     "calorias": 285
   },
   {
+    "id": 263,
     "alimento": "Lengua de cordero  (120 gr )",
     "calorias": 220
   },
   {
+    "id": 264,
     "alimento": "Lengua de vacuno  (120 gr )",
     "calorias": 187
   },
   {
+    "id": 265,
     "alimento": "Lentejas cocidas  (70 gr )",
     "calorias": 270
   },
   {
+    "id": 266,
     "alimento": "Lentejas con arroz  (na)",
     "calorias": 440
   },
   {
+    "id": 267,
     "alimento": "Locos cocidos   (50 gr )",
     "calorias": 76
   },
   {
+    "id": 268,
     "alimento": "Locos mayo  (na)",
     "calorias": 280
   },
   {
+    "id": 269,
     "alimento": "Lomo asado  (200 gr )",
     "calorias": 319
   },
   {
+    "id": 270,
     "alimento": "Longaniza  (50 gr )",
     "calorias": 258
   },
   {
+    "id": 271,
     "alimento": "Lúcuma  (100 gr )",
     "calorias": 12
   },
   {
+    "id": 272,
     "alimento": "Luche  (50 gr )",
     "calorias": 13
   },
   {
+    "id": 273,
     "alimento": "Macedonia (na)",
     "calorias": 150
   },
   {
+    "id": 274,
     "alimento": "Machas  (100 gr )",
     "calorias": 75
   },
   {
+    "id": 275,
     "alimento": "Machas en conservas (100 gr )",
     "calorias": 124
   },
   {
+    "id": 276,
     "alimento": "Maicena cruda   (15 gr )",
     "calorias": 53
   },
   {
+    "id": 277,
     "alimento": "Malaya de cerdo  (120 gr )",
     "calorias": 380
   },
   {
+    "id": 278,
     "alimento": "Mandarina  (100 cc )",
     "calorias": 40
   },
   {
+    "id": 279,
     "alimento": "Mandarina  (50 gr )",
     "calorias": 18
   },
   {
+    "id": 280,
     "alimento": "Mangos crudos  (113 gr )",
     "calorias": 75
   },
   {
+    "id": 281,
     "alimento": "Manhatan dulce  (90 cc )",
     "calorias": 160
   },
   {
+    "id": 282,
     "alimento": "Maní  (2 gr  )",
     "calorias": 10
   },
   {
+    "id": 283,
     "alimento": "Manjar  (20 gr )",
     "calorias": 61
   },
   {
+    "id": 284,
     "alimento": "Manteca ( 20 gr)",
     "calorias": 40
   },
   {
+    "id": 285,
     "alimento": "Mantequilla  (5 gr )",
     "calorias": 37
   },
   {
+    "id": 286,
     "alimento": "Manzana  (100 cc )",
     "calorias": 48
   },
   {
+    "id": 287,
     "alimento": "Manzana asada  (na)",
     "calorias": 161
   },
   {
+    "id": 288,
     "alimento": "Manzana  (150 gr. )",
     "calorias": 53
   },
   {
+    "id": 289,
     "alimento": "Margarina  (5 gr )",
     "calorias": 36
   },
   {
+    "id": 290,
     "alimento": "Mariscos salsa verde  (na)",
     "calorias": 190
   },
   {
+    "id": 291,
     "alimento": "Mayonesa (20 gr )",
     "calorias": 128
   },
   {
+    "id": 292,
     "alimento": " Mazapán (10 gr.)",
     "calorias": 38
   },
   {
+    "id": 293,
     "alimento": "Melón escrito (100 gr.)",
     "calorias": 20
   },
   {
+    "id": 294,
     "alimento": "Melón tuna (1750 gr.)",
     "calorias": 378
   },
   {
+    "id": 295,
     "alimento": " Melón tuna (100 gr.)",
     "calorias": 44
   },
   {
+    "id": 296,
     "alimento": "Membrillo (200 gr.)",
     "calorias": 71
   },
   {
+    "id": 297,
     "alimento": "Minestrón (na)",
     "calorias": 320
   },
   {
+    "id": 298,
     "alimento": "Merengue con azúcar (na)",
     "calorias": 28
   },
   {
+    "id": 299,
     "alimento": "Merengue con fruta (na)",
     "calorias": 116
   },
   {
+    "id": 300,
     "alimento": "Mermelada (20 gr.)",
     "calorias": 50
   },
   {
+    "id": 301,
     "alimento": " Mermelada dietética (5 gr.)",
     "calorias": 2
   },
   {
+    "id": 302,
     "alimento": "Miel de abeja (20 gr.)",
     "calorias": 60
   },
   {
+    "id": 303,
     "alimento": " Miel de palma (20 gr.)",
     "calorias": 52
   },
   {
+    "id": 304,
     "alimento": "Milo (7 gr.)",
     "calorias": 18
   },
   {
+    "id": 305,
     "alimento": "Mollejas de pavo (120 gr.)",
     "calorias": 160
   },
   {
+    "id": 306,
     "alimento": "Mollejas de pollo (120 gr.)",
     "calorias": 155
   },
   {
+    "id": 307,
     "alimento": "Mora (150 gr.)",
     "calorias": 60
   },
   {
+    "id": 308,
     "alimento": "Mora jugo (100 cc)",
     "calorias": 40
   },
   {
+    "id": 309,
     "alimento": "Mortadela (25 gr.)",
     "calorias": 60
   },
   {
+    "id": 310,
     "alimento": "Nabo  (80 gr )",
     "calorias": 23
   },
   {
+    "id": 311,
     "alimento": "Naranja  (160 gr )",
     "calorias": 36
   },
   {
+    "id": 312,
     "alimento": "Naranja  (100 cc )",
     "calorias": 43
   },
   {
+    "id": 313,
     "alimento": "Nata (20 gr )",
     "calorias": 40
   },
   {
+    "id": 314,
     "alimento": "Néctar  (100 cc )",
     "calorias": 73
   },
   {
+    "id": 315,
     "alimento": "Níspero  (50 gr )",
     "calorias": 52
   },
   {
+    "id": 316,
     "alimento": "Nueces  (5 gr )",
     "calorias": 28
   },
   {
+    "id": 317,
     "alimento": "Ñoquis  (na)",
     "calorias": 320
   },
   {
+    "id": 318,
     "alimento": "Oporto  (30 cc )",
     "calorias": 45
   },
   {
+    "id": 319,
     "alimento": "Orange Crush  (100 cc )",
     "calorias": 52
   },
   {
+    "id": 320,
     "alimento": "Ostras   (100 gr )",
     "calorias": 80
   },
   {
+    "id": 321,
     "alimento": "Ostiones  (100 gr )",
     "calorias": 144
   },
   {
+    "id": 322,
     "alimento": "Palmitos   (120 gr )",
     "calorias": 30
   },
   {
+    "id": 323,
     "alimento": "Palomitas de maíz  (50 gr.)",
     "calorias": 150
   },
   {
+    "id": 324,
     "alimento": "Palta  (60 gr )",
     "calorias": 108
   },
   {
+    "id": 325,
     "alimento": "Palta Molida (32 gr )",
     "calorias": 58
   },
   {
+    "id": 326,
     "alimento": "Palta Rellena  (na)",
     "calorias": 316
   },
   {
+    "id": 327,
     "alimento": "Pan Blanco Molde  (30 gr )",
     "calorias": 60
   },
   {
+    "id": 328,
     "alimento": "Pan Centeno  (100 gr )",
     "calorias": 229
   },
   {
+    "id": 329,
     "alimento": "Pan con Fiambre  (140 gr )",
     "calorias": 411
   },
   {
+    "id": 330,
     "alimento": "Pan con Fiambre y Mantequilla  (152 gr )",
     "calorias": 447
   },
   {
+    "id": 331,
     "alimento": "Pan con Manjar  (140 gr )",
     "calorias": 430
   },
   {
+    "id": 332,
     "alimento": "Pan con Mermelada  (140 gr )",
     "calorias": 373
   },
   {
+    "id": 333,
     "alimento": "Pan con Pateé  (130 gr )",
     "calorias": 437
   },
   {
+    "id": 334,
     "alimento": "Pan con Queso  (140 gr )",
     "calorias": 449
   },
   {
+    "id": 335,
     "alimento": "Pan con Queso y Mantequilla  (153 gr )",
     "calorias": 595
   },
   {
+    "id": 336,
     "alimento": "Pan de Gluten  (100 gr )",
     "calorias": 208
   },
   {
+    "id": 337,
     "alimento": "Pan Especial  (60 gr )",
     "calorias": 185
   },
   {
+    "id": 338,
     "alimento": "Pan Hallulla  (100 gr )",
     "calorias": 309
   },
   {
+    "id": 339,
     "alimento": "Pan Dietético  (30 gr )",
     "calorias": 30
   },
   {
+    "id": 340,
     "alimento": "Pan Integral  (100 gr  )",
     "calorias": 276
   },
   {
+    "id": 341,
     "alimento": "Pan Marraqueta  (100 gr  )",
     "calorias": 267
   },
   {
+    "id": 342,
     "alimento": "Panqueques  (70 gr )",
     "calorias": 160
   },
   {
+    "id": 343,
     "alimento": "Pantrucas  (na)",
     "calorias": 350
   },
   {
+    "id": 344,
     "alimento": "Papas  (100 gr )",
     "calorias": 71
   },
   {
+    "id": 345,
     "alimento": "Papas Duquesas  (na)",
     "calorias": 55
   },
   {
+    "id": 346,
     "alimento": "Papas Duquesas  (na)",
     "calorias": 295
   },
   {
+    "id": 347,
     "alimento": "Papas Fritas  (na)",
     "calorias": 19
   },
   {
+    "id": 348,
     "alimento": "Papas Fritas  (na)",
     "calorias": 368
   },
   {
+    "id": 349,
     "alimento": "Papas Rellenas  (na)",
     "calorias": 400
   },
   {
+    "id": 350,
     "alimento": "Papayas Jugo   (100 cc )",
     "calorias": 36
   },
   {
+    "id": 351,
     "alimento": "Papayas crudas  (200 gr )",
     "calorias": 65
   },
   {
+    "id": 352,
     "alimento": "Pasas  ( 1 gr)",
     "calorias": 3
   },
   {
+    "id": 353,
     "alimento": "Pastel  (120 gr )",
     "calorias": 350
   },
   {
+    "id": 354,
     "alimento": "Pastel de Carne  (na)",
     "calorias": 275
   },
   {
+    "id": 355,
     "alimento": "Pastel de Choclo  (na)",
     "calorias": 390
   },
   {
+    "id": 356,
     "alimento": "Pastel de Mil Hojas  (120 gr )",
     "calorias": 394
   },
   {
+    "id": 357,
     "alimento": "Pastel de Papas  (na)",
     "calorias": 376
   },
   {
+    "id": 358,
     "alimento": "Pastelillos de cóctel  (40 gr )",
     "calorias": 90
   },
   {
+    "id": 359,
     "alimento": "Pastillas de Menta  (3 gr  )",
     "calorias": 11
   },
   {
+    "id": 360,
     "alimento": "Patees  (120 gr )",
     "calorias": 514
   },
   {
+    "id": 361,
     "alimento": "Patees  (15 gr )",
     "calorias": 65
   },
   {
+    "id": 362,
     "alimento": "Patitas de Cerdo  (300 gr. )",
     "calorias": 277
   },
   {
+    "id": 363,
     "alimento": "Pato Asado  (100 gr )",
     "calorias": 190
   },
   {
+    "id": 364,
     "alimento": "Pato Orange  (150 gr. )",
     "calorias": 240
   },
   {
+    "id": 365,
     "alimento": "Pavo Asado  (100 gr )",
     "calorias": 149
   },
   {
+    "id": 366,
     "alimento": "Penca Picada  (100 gr )",
     "calorias": 21
   },
   {
+    "id": 367,
     "alimento": "Pepinillo fresco  (100 gr )",
     "calorias": 11
   },
   {
+    "id": 368,
     "alimento": "Pepinillo Pickle  (100 gr )",
     "calorias": 25
   },
   {
+    "id": 369,
     "alimento": "Pepino  (100 gr )",
     "calorias": 11
   },
   {
+    "id": 370,
     "alimento": "Pepino  (150 gr. )",
     "calorias": 25
   },
   {
+    "id": 371,
     "alimento": "Pepsi cola  (100 cc )",
     "calorias": 43
   },
   {
+    "id": 372,
     "alimento": "Pera  (150 gr. )",
     "calorias": 58
   },
   {
+    "id": 373,
     "alimento": "Pera  (100 cc )",
     "calorias": 42
   },
   {
+    "id": 374,
     "alimento": "Pera al jugo  (560 gr )",
     "calorias": 381
   },
   {
+    "id": 375,
     "alimento": "Pera compota  (60 gr )",
     "calorias": 40
   },
   {
+    "id": 376,
     "alimento": "Perejil  (100 gr )",
     "calorias": 42
   },
   {
+    "id": 377,
     "alimento": "Pernil  (150 gr. )",
     "calorias": 230
   },
   {
+    "id": 378,
     "alimento": "Pescado Ahumado  (100 gr )",
     "calorias": 120
   },
   {
+    "id": 379,
     "alimento": "Pescado al Curry  (200 gr )",
     "calorias": 220
   },
   {
+    "id": 380,
     "alimento": "Pescado al Jugo  (na)",
     "calorias": 230
   },
   {
+    "id": 381,
     "alimento": "Pescada al vapor  (150 gr )",
     "calorias": 117
   },
   {
+    "id": 382,
     "alimento": "Pescado tártara  (na)",
     "calorias": 120
   },
   {
+    "id": 383,
     "alimento": "Pichanga  (100 gr )",
     "calorias": 29
   },
   {
+    "id": 384,
     "alimento": "Pie de Limón  (120 gr )",
     "calorias": 300
   },
   {
+    "id": 385,
     "alimento": "Pimentón  (95 gr )",
     "calorias": 52
   },
   {
+    "id": 386,
     "alimento": "Pino de Carne  (na)",
     "calorias": 177
   },
   {
+    "id": 387,
     "alimento": "Piña  (50 gr )",
     "calorias": 30
   },
   {
+    "id": 388,
     "alimento": "Piña  (100 cc )",
     "calorias": 52
   },
   {
+    "id": 389,
     "alimento": "Piña al Jugo  (600 gr )",
     "calorias": 340
   },
   {
+    "id": 390,
     "alimento": "Piña en conserva  (na)",
     "calorias": 83
   },
   {
+    "id": 391,
     "alimento": "Piñones  (36 gr )",
     "calorias": 310
   },
   {
+    "id": 392,
     "alimento": "Pisco  (50 cc )",
     "calorias": 181
   },
   {
+    "id": 393,
     "alimento": "Piure  (100 gr )",
     "calorias": 46
   },
   {
+    "id": 394,
     "alimento": "Pizza 1/m  (120 gr )",
     "calorias": 240
   },
   {
+    "id": 395,
     "alimento": "Plátano  (200 gr )",
     "calorias": 110
   },
   {
+    "id": 396,
     "alimento": "Pollo-Ala  (50 gr )",
     "calorias": 34
   },
   {
+    "id": 397,
     "alimento": "Pollo-Pechuga  (140 gr )",
     "calorias": 150
   },
   {
+    "id": 398,
     "alimento": "Pollo-Pierna  (120 gr )",
     "calorias": 125
   },
   {
+    "id": 399,
     "alimento": "Pollo-Menudencias  (100 gr )",
     "calorias": 100
   },
   {
+    "id": 400,
     "alimento": "Pollo al Curry (salsa) (150 gr )",
     "calorias": 200
   },
   {
+    "id": 401,
     "alimento": "Pollo al jugo (250 gr )",
     "calorias": 274
   },
   {
+    "id": 402,
     "alimento": "Pollo asado con mantequilla  (150 gr )",
     "calorias": 240
   },
   {
+    "id": 403,
     "alimento": "Pollo frito apanado  (130 gr )",
     "calorias": 190
   },
   {
+    "id": 404,
     "alimento": "Pomelo  (120 gr )",
     "calorias": 28
   },
   {
+    "id": 405,
     "alimento": "Porotos cocidos   (70 gr )",
     "calorias": 241
   },
   {
+    "id": 406,
     "alimento": "Porotos con tallarines  (na)",
     "calorias": 475
   },
   {
+    "id": 407,
     "alimento": "Porotos granados  (na)",
     "calorias": 335
   },
   {
+    "id": 408,
     "alimento": "Porotos granados cocidos  (100 gr )",
     "calorias": 135
   },
   {
+    "id": 409,
     "alimento": "Porotos verdes cocidos  (90 gr )",
     "calorias": 19
   },
   {
+    "id": 410,
     "alimento": "Porotos verdes crudos  (100 gr )",
     "calorias": 28
   },
   {
+    "id": 411,
     "alimento": "Porrones  (80 gr )",
     "calorias": 24
   },
   {
+    "id": 412,
     "alimento": "Postre de Leche 1/m (na)",
     "calorias": 237
   },
   {
+    "id": 413,
     "alimento": "Prietas  (100 gr )",
     "calorias": 124
   },
   {
+    "id": 414,
     "alimento": "Puré de castañas  (na)",
     "calorias": 185
   },
   {
+    "id": 415,
     "alimento": "Puré de manzanas s/azuc  (na)",
     "calorias": 55
   },
   {
+    "id": 416,
     "alimento": "Puré de manzanas c/azuc (na)",
     "calorias": 100
   },
   {
+    "id": 417,
     "alimento": "Puré de Papas  (na)",
     "calorias": 300
   },
   {
+    "id": 418,
     "alimento": "Quesillo  (30 gr  )",
     "calorias": 33
   },
   {
+    "id": 419,
     "alimento": "Quesillo  (360 gr )",
     "calorias": 399
   },
   {
+    "id": 420,
     "alimento": "Queso de Cabra (30 gr )",
     "calorias": 120
   },
   {
+    "id": 421,
     "alimento": "Queso Crema  (5 gr )",
     "calorias": 13
   },
   {
+    "id": 422,
     "alimento": "Queso Crema  (55 gr )",
     "calorias": 143
   },
   {
+    "id": 423,
     "alimento": "Queso de Cabezas  (30 gr )",
     "calorias": 80
   },
   {
+    "id": 424,
     "alimento": "Queso fresco  (30 gr )",
     "calorias": 33
   },
   {
+    "id": 425,
     "alimento": "Queso en general  (30 gr )",
     "calorias": 107
   },
   {
+    "id": 426,
     "alimento": "Queso Holandés (bola)  (30 gr )",
     "calorias": 115
   },
   {
+    "id": 427,
     "alimento": "Queso rayado Parmesano  (15 gr )",
     "calorias": 50
   },
   {
+    "id": 428,
     "alimento": "Queso Ricotte  (30 gr )",
     "calorias": 120
   },
   {
+    "id": 429,
     "alimento": "Rabanitos  (20 gr )",
     "calorias": 3
   },
   {
+    "id": 430,
     "alimento": "Refrescos Polvo  (100 cc )",
     "calorias": 37
   },
   {
+    "id": 431,
     "alimento": "Repollo Cocido  (100 gr )",
     "calorias": 20
   },
   {
+    "id": 432,
     "alimento": "Repollo crudo  (80 gr )",
     "calorias": 16
   },
   {
+    "id": 433,
     "alimento": "Requesón  (20 gr )",
     "calorias": 33
   },
   {
+    "id": 434,
     "alimento": "Ron  (50 cc )",
     "calorias": 122
   },
   {
+    "id": 435,
     "alimento": "Riñón de Cordero  (120 gr )",
     "calorias": 125
   },
   {
+    "id": 436,
     "alimento": "Riñón de Cerdo (120 gr )",
     "calorias": 115
   },
   {
+    "id": 437,
     "alimento": "Riñón de Vacuno (120 gr )",
     "calorias": 104
   },
   {
+    "id": 438,
     "alimento": "Roastbeef  (150 gr )",
     "calorias": 250
   },
   {
+    "id": 439,
     "alimento": "Salsa blanca (20 cc )",
     "calorias": 25
   },
   {
+    "id": 440,
     "alimento": "Salame  (15 gr )",
     "calorias": 67
   },
   {
+    "id": 441,
     "alimento": "Surtido para caldillo  (220 gr )",
     "calorias": 174
   },
   {
+    "id": 442,
     "alimento": "Salmón  (460 gr )",
     "calorias": 782
   },
   {
+    "id": 443,
     "alimento": "Salmón Ahumado  (50 gr )",
     "calorias": 185
   },
   {
+    "id": 444,
     "alimento": "Salmón crudo  (150 gr )",
     "calorias": 296
   },
   {
+    "id": 445,
     "alimento": "Salmón en aceite  (120 gr )",
     "calorias": 185
   },
   {
+    "id": 446,
     "alimento": "Salpicón  (na)",
     "calorias": 218
   },
   {
+    "id": 447,
     "alimento": "Sandia  (160 gr )",
     "calorias": 38
   },
   {
+    "id": 448,
     "alimento": "Sardina en aceite  (150 gr )",
     "calorias": 350
   },
   {
+    "id": 449,
     "alimento": "Sardina en aceite  (50 gr )",
     "calorias": 117
   },
   {
+    "id": 450,
     "alimento": "Sémola con leche (na)",
     "calorias": 260
   },
   {
+    "id": 451,
     "alimento": "Sémola cruda  (15 gr )",
     "calorias": 45
   },
   {
+    "id": 452,
     "alimento": "Sesos de cerdo   (100 gr )",
     "calorias": 140
   },
   {
+    "id": 453,
     "alimento": "Sesos de vacuno  (100 gr )",
     "calorias": 145
   },
   {
+    "id": 454,
     "alimento": "Sidra  (30 cc )",
     "calorias": 10
   },
   {
+    "id": 455,
     "alimento": "Sopa con verdura y arroz  (na)",
     "calorias": 140
   },
   {
+    "id": 456,
     "alimento": "Sopa de mariscos  (na)",
     "calorias": 160
   },
   {
+    "id": 457,
     "alimento": "Sopa deshidratada  (na)",
     "calorias": 63
   },
   {
+    "id": 458,
     "alimento": "Sopaipilla  (50 gr )",
     "calorias": 130
   },
   {
+    "id": 459,
     "alimento": " Sopaipillas pasadas (60 gr )",
     "calorias": 190
   },
   {
+    "id": 460,
     "alimento": "Sopa menudencias  (na)",
     "calorias": 191
   },
   {
+    "id": 461,
     "alimento": "Sprite (100 cc )",
     "calorias": 41
   },
   {
+    "id": 462,
     "alimento": "Sprite Light  (100 cc )",
     "calorias": 1
   },
   {
+    "id": 463,
     "alimento": "Tallarines cocidos  (na)",
     "calorias": 241
   },
   {
+    "id": 464,
     "alimento": "Tallarines c/salsa de carne  (na)",
     "calorias": 505
   },
   {
+    "id": 465,
     "alimento": "Ternero asado  (150 gr )",
     "calorias": 245
   },
   {
+    "id": 466,
     "alimento": "Tocino  (10 gr )",
     "calorias": 75
   },
   {
+    "id": 467,
     "alimento": "Tomate  (250 gr )",
     "calorias": 29
   },
   {
+    "id": 468,
     "alimento": "Tomate jugo  (100 gr )",
     "calorias": 0
   },
   {
+    "id": 469,
     "alimento": "Tomate al jugo  (560 tr )",
     "calorias": 106
   },
   {
+    "id": 470,
     "alimento": "Tomate jugo  (320 gr )",
     "calorias": 74
   },
   {
+    "id": 471,
     "alimento": "Tomate relleno (na)",
     "calorias": 170
   },
   {
+    "id": 472,
     "alimento": "Tom Collins (100 cc)",
     "calorias": 250
   },
   {
+    "id": 473,
     "alimento": "Torta (200 gr.)",
     "calorias": 420
   },
   {
+    "id": 474,
     "alimento": "Toronja (na)",
     "calorias": 50
   },
   {
+    "id": 475,
     "alimento": "Tortilla de verduras t/m (na)",
     "calorias": 152
   },
   {
+    "id": 476,
     "alimento": "Tunas (150 gr.)",
     "calorias": 50
   },
   {
+    "id": 477,
     "alimento": "Turín (27 gr.)",
     "calorias": 81
   },
   {
+    "id": 478,
     "alimento": "Tuti fruti en conserva (na)",
     "calorias": 190
   },
   {
+    "id": 479,
     "alimento": "Ubre de vacuno (100 gr.)",
     "calorias": 179
   },
   {
+    "id": 480,
     "alimento": "Ulte (50 gr.)",
     "calorias": 14
   },
   {
+    "id": 481,
     "alimento": "Uva (200 gr.)",
     "calorias": 140
   },
   {
+    "id": 482,
     "alimento": "Vermouth dulce (30 cc)",
     "calorias": 45
   },
   {
+    "id": 483,
     "alimento": "Vermouth seco (30 cc)",
     "calorias": 35
   },
   {
+    "id": 484,
     "alimento": "Vienesas (60 gr.)",
     "calorias": 197
   },
   {
+    "id": 485,
     "alimento": "Vino blanco (100 cc)",
     "calorias": 84
   },
   {
+    "id": 486,
     "alimento": "Vino dulce (100 cc)",
     "calorias": 158
   },
   {
+    "id": 487,
     "alimento": "Vino tinto (100 cc)",
     "calorias": 70
   },
   {
+    "id": 488,
     "alimento": "Vodka (50 cc)",
     "calorias": 75
   },
   {
+    "id": 489,
     "alimento": "Wisky (100 cc)",
     "calorias": 200
   },
   {
+    "id": 490,
     "alimento": "Yema de huevo (17 gr.)",
     "calorias": 63
   },
   {
+    "id": 491,
     "alimento": "Yoghurt batido (175 gr.)",
     "calorias": 159
   },
   {
+    "id": 492,
     "alimento": "Yoghurt c/fruta (175 gr.)",
     "calorias": 159
   },
   {
+    "id": 493,
     "alimento": "Yoghurt sin azúcar (200 gr.)",
     "calorias": 100
   },
   {
+    "id": 494,
     "alimento": "Zapallo cocido (100 gr.)",
     "calorias": 30
   },
   {
+    "id": 495,
     "alimento": "Zapallo italiano cocido (150 gr.)",
     "calorias": 15
   },
   {
+    "id": 496,
     "alimento": "Zanahoria cocida (100 gr.)",
     "calorias": 45
   },
   {
+    "id": 497,
     "alimento": "Zanahoria cruda (60 gr.)",
     "calorias": 29
   },
   {
+    "id": 498,
     "alimento": "Zanahoria jugo (100 gr.)",
     "calorias": 40
   }
