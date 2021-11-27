@@ -58,6 +58,12 @@ footer .name {
   width: 100%;
 }
 
+#boton-carrito:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #0070fc;
+}
+
 @media only screen and (max-width: 780px) {
   .fruits {
     height: 100vh;

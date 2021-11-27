@@ -154,6 +154,7 @@ function createCalcDOM() {
     }
     $('#results').html(``);
     startApp();
+    console.log(arrayAlimentos);
   });
 
   ///////////////MODAL AUTOMÁTICO PARA DESPLEGAR DIÁLOGO DE CONFIRMACIÓN CON SWEET ALERT
@@ -252,7 +253,7 @@ function createCalcDOM() {
       return;
     }
 
-    arrayAlimentos.push(new DataAlimento(nombre, consumo, calorias, id));
+    arrayAlimentos.unshift(new DataAlimento(nombre, consumo, calorias, id));
 
     arrayAlimentos[arrayAlimentos.length - 1].calcularCalorias();
     articles = document.createElement('div');
@@ -275,7 +276,7 @@ function createCalcDOM() {
             </div>
         </div>
         </div>`;
-    contenedorProductos.append(articles);
+    contenedorProductos.prepend(articles);
 
     if (arrayAlimentos.length === 1) {
       answerText.innerHTML = `Abajo encontrarás la información de tu alimento ingresado:`;
