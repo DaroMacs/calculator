@@ -1,9 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background: #e0e5ec;
   font-family: 'Poppins', sans-serif;
   height: 100%;
   padding-top: 45px;
 }
+
+footer .nav {
+  min-height: 2.5rem;
+  overflow: hidden;
+  background: rgba(26, 25, 25, 0.486);
+  color: white;
+}
+
+footer a {
+  color: white;
+}
+
+.nameFooter {
+  letter-spacing: 3px;
+  font-size: 10px;
+}
+.nameFooter-1 {
+  letter-spacing: 0px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+footer .name {
+  letter-spacing: 3px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
 .fruits {
   background-image: url('../fruits.svg'), url('../banana.png');
   height: 100vh;
@@ -20,12 +54,13 @@ body {
 #boton-carrito {
   border: none;
   border-radius: 0.1rem;
+  margin: 5px;
+  width: 100%;
 }
 
 @media only screen and (max-width: 780px) {
   .fruits {
-    height: auto;
-    min-height: auto;
+    height: 100vh;
     background-position: bottom right, bottom left;
     box-shadow: 0px 5px 15px 2px rgba(0, 0, 0, 0.5);
     background-size: 100%, 100px;
