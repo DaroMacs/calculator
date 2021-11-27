@@ -17,107 +17,60 @@
 </head>
 <body>
     <div class="bg-image fruits"">
-        <div class="contenido-hero">
-        <!-- NAVIGATION -->
-            <nav class="navbar fixed-top navbar-light bg-light navbar-expand-md fixed-top mb-0 py-0">
-                <div class="container">
-                    <h2 class="navName fw-light mb-0">diet<span class='navName-1'>Calc.</span></h2>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link jumpCalc" href="#">Calculadora</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Acerca de</a>
-                        </li>
-                        <li class="nav-item">
-                            <button id="boton-carrito"><i class="nav-link fas fa-calculator"></i><span id="contadorCarrito">0</span></button>
-                        </li>
-                        </ul>
+            <div class="contenido-hero">
+            <!-- NAVIGATION -->
+                <nav class="navbar fixed-top navbar-light bg-light navbar-expand-md fixed-top mb-0 py-0">
+                    <div class="container">
+                        <h2 class="navName fw-light mb-0">diet<span class='navName-1'>Calc.</span></h2>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link jumpCalc" href="#">Calculadora</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Acerca de</a>
+                            </li>
+                            <li class="nav-item">
+                                <button id="boton-carrito"><i class="nav-link fas fa-calculator"></i><span id="contadorCarrito">0</span></button>
+                            </li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-            </nav>
+                </nav>
 
-            <!-- CONTAINER HERO -->
-   
-            <div class="container hero">
-                <div class="row">
-                    <div class="col-12 text-center col-lg-6 d-sm-flex flex-sm-column align-items-center justify-content-center">
-                    <h2 class="name fw-light mb-3">diet<span class='name-1'>Calc.</span></h2>
-                    <p class="about">¿Necesitas medir tu consumo semanal de calorías? <br>Nuestra calculadora te ayuda a saberlo para que puedas equilibrar tu ingesta diaria.</p>
-                    <div class="col-12 col-lg-6 pt-3">
-                        <a href="#" class="btn btn-primary btn-sm mb-2 jumpCalc" id="jumpCalc">Ir a Calculadora</a>
-                    </div>
-                    <div class="col-12 col-lg-6 pt-3">
-                        <a href="#" class="btn btn-success btn-sm mb-4">Acerca de</a>
-                    </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-    <!-- CALCULATOR -->
-
-    <div class="container calculator col-md-8 col-10 mb-1" id="calculator">
-        <div class="row justify-content-center desafio rounded-top rounded-bottom mb-3">
-            <div class="col-8 w-100 text-center">
-                <h2 class="titulo  m-0 py-3 pb-0 mb-2">Calculadora de Calorías</h2>
-            </div> 
-            <div class="row">
-                <div class="col-6 dynamic">
-                    <label for="food">Selecciona el alimento</label>
-                    <select class='dropdown-list' name="food" id="alimento" type="range" style="max-width:100px;">
-                        <option value="">Da Click</option>
-                    </select>
-                    <div>
-                        <a href="https://www.bcn.cl/come_inteligente/tabla_calorias" class="coder" >Fuente Base de Datos</a>
-                    </div>
-                    <div class="col-12 mt-3" id="insertar-calorias-JSON">
-                                                
-                    </div>
-                    <div class="col-6 mt-3 mb-3">
-                            <label for="dias">Consumo semanal en días</label>
-                            <select style="width:100px;" name="dias" id="dias" type="range" min="0" max="1000">
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                                <option value="6">6</option>
-                                <option value="7">7</option>
-                            </select>
-                    </div>               
-                </div>                  
-            </div> 
-
-    <!-- BOTÓN PARA INICIAR CÁLCULO Y SE AGREGA POR JS BOTÓN REINICIAR -->
-            <div class="w-100 text-center row1">
-                <a href="#" class="btn btn-outline-primary btn-sm start-app mb-2" >Calcular</a>
-                <p class="coder text-center">Da click para empezar</p>                
-            </div>
-            <div class="col-8">
-            <p class="text-center message" id="message"></p>
-            </div>     
-        </div> 
-    </div> 
+                <!-- CONTAINER HERO -->
     
-        <div class='container col-10 col-md-8 mb-3 g-0' id="results">
+                <div class="container hero">
+                    <div class="row">
+                        <div class="col-12 text-center col-lg-6 d-sm-flex flex-sm-column align-items-center justify-content-center">
+                            <h2 class="name fw-light mb-3">diet<span class='name-1'>Calc.</span></h2>
+                            <p class="about">¿Necesitas medir tu consumo semanal de calorías? <br>Nuestra calculadora te ayuda a saberlo para que puedas equilibrar tu ingesta diaria.</p>
+                            <div class="col-12 col-lg-6 pt-3">
+                                <a href="#" class="btn btn-primary btn-sm mb-2 jumpCalc" id="jumpCalc">Calculadora</a>
+                            </div>
+                            <div class="col-12 col-lg-6 pt-3">
+                                <a href="#" class="btn btn-success btn-sm mb-4">Acerca de</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+    <!-- CALCULATOR -->
+    <!-- SE INSERTA CALCULADORA CON JS -->
+    <div class="container calculator col-md-8 col-10 mb-1" id="calculator"></div> 
+    
+        <div class='container col-10 col-md-8 mb-3 g-0' id="results"></div>
     
         <section id='seccion' class="container col-10 col-md-8 g-0 mb-3">
-            <div class="row row2">
-            </div>
-        </section>
-
-
-     
+            <div class="row row2"></div>
+        </section>    
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     </body>
 </html>   
