@@ -1,3 +1,5 @@
+import modal from './modules/modal.js';
+
 let exceso;
 let arraySorted;
 let articles;
@@ -7,10 +9,10 @@ let caloriaInputJSON;
 let idInputJason;
 let buttonStart;
 let inputAlimento;
-let arrayAlimentos = [];
 let btnLimpiar;
 let contenedorBtnLimpiar;
 let div;
+let arrayAlimentos = [];
 const calculadoraSummary = [];
 const divCalorias = document.createElement('div');
 const contenedorProductos = document.querySelector('.row2');
@@ -18,6 +20,7 @@ const buttonJumpCalc = document.querySelectorAll('.jumpCalc');
 let imagen = 1;
 let newImagen = 1;
 
+modal();
 ////// BOTÓN PARA SCROLLDOWN A LA CALCULADORA CON DISTINTOS BOTONES
 buttonJumpCalc.forEach(button => {
   button.addEventListener('click', e => {
@@ -35,26 +38,35 @@ buttonJumpCalc.forEach(button => {
 function createCalcDOM() {
   div = document.createElement('div');
   const divCalc = document.querySelector('#calculator');
-  div.classList.add('row', 'justify-content-center', 'desafio', 'rounded-top', 'rounded-bottom', 'mb-3');
+  div.classList.add(
+    'row',
+    'justify-content-center',
+    'text-center',
+    'desafio',
+    'rounded-top',
+    'rounded-bottom',
+    'mb-3'
+  );
   div.innerHTML = `
             <div class="col-8 w-100 text-center">
                 <h2 class="titulo  m-0 py-3 pb-0 mb-2">Calculadora de Calorías</h2>
             </div> 
-              <div class="row">
-                  <div class="col-6 dynamic">
+                  <div class="col-6 align-items-center">
+                      <div class="mt-3">
                       <label for="food">Selecciona el alimento</label>
-                      <select class='dropdown-list' name="food" id="alimento" type="range" style="max-width:100px;">
+                      <select class='dropdown-list rounded' name="food" id="alimento" type="range" style="max-width:200px;">
                           <option value="">Da Click</option>
                       </select>
                       <div>
                           <a href="https://www.bcn.cl/come_inteligente/tabla_calorias" class="coder" >Fuente Base de Datos</a>
                       </div>
-                      <div class="col-12 mt-3" id="insertar-calorias-JSON">
+                      </div>
+                      <div class="mt-3" id="insertar-calorias-JSON">
                                                   
                       </div>
-                      <div class="col-6 mt-3 mb-3">
+                      <div class="mt-3 mb-3">
                           <label for="dias">Consumo semanal en días</label>
-                          <select style="width:100px;" name="dias" id="dias" type="range" min="0" max="1000">
+                          <br><select class="rounded" style="width:100px;" name="dias" id="dias" type="range">
                               <option value="1">1</option>
                               <option value="2">2</option>
                               <option value="3">3</option>
@@ -64,8 +76,13 @@ function createCalcDOM() {
                               <option value="7">7</option>
                           </select>
                       </div>
-                  </div>               
-              </div>                  
+                    </div>               
+                <div class='col-6 d-flex align-items-center justify-content-center mt-3'>
+                  <div>
+                      <img src="./orange.png" height="100px" class="w-auto" alt="">
+                      <a class="pt-1 btn btn-success btn-sm instrucciones">Instrucciones</a>
+                  </div>
+                </div>     
             
 
     <!-- BOTÓN PARA INICIAR CÁLCULO Y BOTÓN REINICIAR -->
@@ -132,7 +149,7 @@ function createCalcDOM() {
 
       divCalorias.innerHTML = `
                 <div>
-                  <p>Calorías del alimento seleccionado:</p>
+                  <p class="mb-1">Calorías del alimento:</p>
                   <p class="calorias-bg">${caloriaInputJSON} KCal.</p>
                 </div>`;
       caloriasJason.append(divCalorias);
