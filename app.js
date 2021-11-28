@@ -54,9 +54,9 @@ const createCalcDOM = () => {
             </div> 
                   <div class="col-12 col-md-6 align-items-center">
                       <div class="mt-3">
-                      <label for="food">Selecciona el alimento</label>
-                      <break><select class='dropdown-list rounded' name="food" id="alimento" type="range" style="max-width:200px;">
-                          <option value="">Da Click</option>
+                      <label for="food">Selecciona el alimento</label><break>
+                      <select class='dropdown-list rounded' name="food" id="alimento" type="range" style="max-width:200px;">
+                       <option value="">Da Click</option>
                       </select>
                       <div>
                           <a href="https://www.bcn.cl/come_inteligente/tabla_calorias" class="coder" >Fuente Base de Datos</a>
