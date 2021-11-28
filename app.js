@@ -54,7 +54,7 @@ const createCalcDOM = () => {
             </div> 
                   <div class="col-12 col-md-6 align-items-center">
                       <div class="mt-3">
-                      <label for="food">Selecciona el alimento</label><break>
+                      <label class="w-100" for="food">Selecciona el alimento</label><break>
                       <select class='dropdown-list rounded' name="food" id="alimento" type="range" style="max-width:200px;">
                        <option value="">Da Click</option>
                       </select>
