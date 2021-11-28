@@ -1,4 +1,4 @@
-import modal from './modules/modal.js';
+// import modal from './modules/modal.js';
 
 let exceso;
 let arraySorted;
@@ -20,7 +20,7 @@ const buttonJumpCalc = document.querySelectorAll('.jumpCalc');
 let imagen = 1;
 let newImagen = 1;
 
-modal();
+// modal();
 ////// BOTÓN PARA SCROLLDOWN A LA CALCULADORA CON DISTINTOS BOTONES
 buttonJumpCalc.forEach(button => {
   button.addEventListener('click', e => {
@@ -40,6 +40,7 @@ function createCalcDOM() {
   const divCalc = document.querySelector('#calculator');
   div.classList.add(
     'row',
+    'mt-3',
     'justify-content-center',
     'text-center',
     'desafio',
@@ -51,7 +52,7 @@ function createCalcDOM() {
             <div class="col-8 w-100 text-center">
                 <h2 class="titulo  m-0 py-3 pb-0 mb-2">Calculadora de Calorías</h2>
             </div> 
-                  <div class="col-6 align-items-center">
+                  <div class="col-12 col-md-6 align-items-center">
                       <div class="mt-3">
                       <label for="food">Selecciona el alimento</label>
                       <select class='dropdown-list rounded' name="food" id="alimento" type="range" style="max-width:200px;">
@@ -64,7 +65,7 @@ function createCalcDOM() {
                       <div class="mt-3" id="insertar-calorias-JSON">
                                                   
                       </div>
-                      <div class="mt-3 mb-3">
+                      <div class="mt-3 mb-md-3">
                           <label for="dias">Consumo semanal en días</label>
                           <br><select class="rounded" style="width:100px;" name="dias" id="dias" type="range">
                               <option value="1">1</option>
@@ -77,10 +78,10 @@ function createCalcDOM() {
                           </select>
                       </div>
                     </div>               
-                <div class='col-6 d-flex align-items-center justify-content-center mt-3'>
+                <div class='col-6 d-flex align-items-center justify-content-center mt-3 mb-3'>
                   <div>
                       <img src="./orange.png" height="100px" class="w-auto" alt="">
-                      <a class="pt-1 btn btn-success btn-sm instrucciones">Instrucciones</a>
+                      <a class="pt-1 ms-2 btn btn-success btn-sm instrucciones">Instrucciones</a>
                   </div>
                 </div>     
             

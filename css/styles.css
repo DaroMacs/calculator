@@ -51,19 +51,6 @@ footer .name {
   margin-bottom: 80px;
 }
 
-#boton-carrito {
-  border: none;
-  border-radius: 0.1rem;
-  margin: 5px;
-  width: 100%;
-}
-
-#boton-carrito:hover {
-  cursor: pointer;
-  color: white;
-  background-color: #0070fc;
-}
-
 @media only screen and (max-width: 780px) {
   .fruits {
     height: 100vh;
