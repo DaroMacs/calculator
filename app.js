@@ -87,7 +87,7 @@ function createCalcDOM() {
 
     <!-- BOTÓN PARA INICIAR CÁLCULO Y BOTÓN REINICIAR -->
             <div class="w-100 text-center row1">
-                <a href="#" class="btn btn-outline-primary btn-sm start-app mb-2" >Calcular</a>
+                <a href="#" class="btn btn-primary btn-sm start-app mb-2" >Calcular</a>
                 <p class="coder text-center">Da click para empezar</p>                
             </div>
             <div class="col-8">
@@ -228,7 +228,7 @@ function createCalcDOM() {
 
     btnLimpiar.classList.add('col-8', 'w-100', 'text-center');
     btnLimpiar.innerHTML = `
-            <a href="#" class="btn btn-outline-primary btn-sm clean-app mb-2">Reiniciar Datos</a>
+            <a href="#" class="btn btn-danger btn-sm clean-app mb-2">Reiniciar Datos</a>
             <p class="coder text-center"></p>
             `;
     contenedorBtnLimpiar.append(btnLimpiar);
