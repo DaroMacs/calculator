@@ -35,7 +35,7 @@ buttonJumpCalc.forEach(button => {
 });
 
 ///// CREA CALCULADORA EN DOM
-function createCalcDOM() {
+const createCalcDOM = () => {
   div = document.createElement('div');
   const divCalc = document.querySelector('#calculator');
   div.classList.add(
@@ -361,4 +361,4 @@ function createCalcDOM() {
       }
     }
   };
-}
+};
