@@ -34,7 +34,7 @@
                                 <a class="nav-link jumpCalc" href="#">Calculadora</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Acerca de</a>
+                                <a class="nav-link"  data-bs-toggle="modal" href="#acercade">Acerca de</a> 
                             </li>
                             <li class="nav-item">
                                 <a id="boton-carrito" class="btn btn-outline-success btn-sm mb-0" ><i class="nav-link fas fa-calculator"></i><span id="contadorCarrito">0</span></a>
@@ -55,7 +55,11 @@
                                 <a href="#" class="btn btn-primary btn-sm mb-2 jumpCalc" id="jumpCalc">Calculadora</a>
                             </div>
                             <div class="col-12 col-lg-6 pt-3">
-                                <a href="#" class="btn btn-success btn-sm mb-4">Acerca de</a>
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-success btn-sm mb-4" data-bs-toggle="modal" data-bs-target="#acercade">Acerca de</button>
+  
+                                <!-- Modal -->
+                                <div class="modal fade" id="acercade" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"></div>
                             </div>
                         </div>
                     </div>

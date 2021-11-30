@@ -1,4 +1,4 @@
-// import modal from './modules/modal.js';
+import modalAcerca from './modules/modalacercade.js';
 
 let exceso;
 let arraySorted;
@@ -20,7 +20,6 @@ const buttonJumpCalc = document.querySelectorAll('.jumpCalc');
 let imagen = 1;
 let newImagen = 1;
 
-// modal();
 ////// BOTÓN PARA SCROLLDOWN A LA CALCULADORA CON DISTINTOS BOTONES
 buttonJumpCalc.forEach(button => {
   button.addEventListener('click', e => {
@@ -362,3 +361,8 @@ const createCalcDOM = () => {
     }
   };
 };
+
+const modalAcercaDe = document.getElementById('acercade');
+console.log(modalAcercaDe);
+
+modalAcerca(modalAcercaDe);
