@@ -1,4 +1,4 @@
-import modalAcerca from './modules/modalacercade.js';
+import modalAcerca, { modalInstrucciones } from './modules/modales.js';
 
 let exceso;
 let arraySorted;
@@ -80,10 +80,11 @@ const createCalcDOM = () => {
                 <div class='col-6 d-flex align-items-center justify-content-center mt-3 mb-3'>
                   <div>
                       <img src="./orange.png" height="100px" class="w-auto" alt="">
-                      <a class="pt-1 ms-2 btn btn-success btn-sm instrucciones">Instrucciones</a>
+                      <button type="button" class="pt-1 ms-2 btn btn-success btn-sm instrucciones" data-bs-toggle="modal" data-bs-target="#instrucciones">Instrucciones</button>
+                      <!-- MODAL INSTRUCCIONES -->          
+                      <div class="modal fade" id="instrucciones" tabindex="-1" aria-labelledby="instrucciones" aria-hidden="true"></div>
                   </div>
-                </div>     
-            
+                </div>                 
 
     <!-- BOTÓN PARA INICIAR CÁLCULO Y BOTÓN REINICIAR -->
             <div class="w-100 text-center row1">
@@ -104,6 +105,10 @@ const createCalcDOM = () => {
   const caloriasJason = document.querySelector('#insertar-calorias-JSON');
   const inputDias = document.querySelector('#dias');
   let answerText = document.querySelector('#message');
+
+  //////// MODAL QUE MUESTRA INFO ACERCA DE
+  const modalDeInstrucciones = document.getElementById('instrucciones');
+  modalInstrucciones(modalDeInstrucciones);
 
   ///////////////RECORRIENDO LA BASE DE DATOS JSON CON ASYNC/AWAIT DE ALIMENTOS y CREANDO OPTIONS EN EL DROPDOWN LIST
   const selectList = document.querySelector('.dropdown-list');
@@ -362,7 +367,6 @@ const createCalcDOM = () => {
   };
 };
 
+//////// MODAL QUE MUESTRA INFO ACERCA DE
 const modalAcercaDe = document.getElementById('acercade');
-console.log(modalAcercaDe);
-
 modalAcerca(modalAcercaDe);
