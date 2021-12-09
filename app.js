@@ -1,4 +1,4 @@
-import modalAcerca, { modalInstrucciones } from './modules/modales.js';
+import modalAcerca, { modalCarrito, modalInstrucciones } from './modules/modales.js';
 
 let exceso;
 let arraySorted;
@@ -53,14 +53,25 @@ const createCalcDOM = () => {
             </div> 
                   <div class="col-12 col-md-6 align-items-center">
                       <div class="mt-3">
-                      <label class="w-100" for="food">Selecciona el alimento</label><break>
+                      <label class="w-100" id="tituloAlimento" for="food">Selecciona el alimento</label><break>
                       <select class='dropdown-list rounded' name="food" id="alimento" type="range" style="max-width:200px;">
                        <option value="">Da Click</option>
                       </select>
+                      
                       <div>
-                          <a href="https://www.bcn.cl/come_inteligente/tabla_calorias" class="coder" >Fuente Base de Datos</a>
+                      <div class="mt-3 input-manual">
+                      <div class="form-floating">
+                      <input type="text" name="alimento" id="alimento2" class="form-control-md" placeholder="Nombre de Alimento">
+                      </div>
+                      
+                      <div class="mt-3">
+                      <label id="tituloCalorias" for="calorias">Elige las Kcalorías del alimento</label>
+                      <input type="number" name="calorias" min="1" max="1000" id="calorias" style="width:100px;"></input>
                       </div>
                       </div>
+                      </div>
+                      </div>
+                      <a class="coder" id="editar">Click para editar alimento</a>
                       <div class="mt-3" id="insertar-calorias-JSON">
                                                   
                       </div>
@@ -88,7 +99,7 @@ const createCalcDOM = () => {
 
     <!-- BOTÓN PARA INICIAR CÁLCULO Y BOTÓN REINICIAR -->
             <div class="w-100 text-center row1">
-                <a href="#" class="btn btn-primary btn-sm start-app mb-2" >Calcular</a>
+                <a href="#" class="btn btn-primary btn-sm start-app mb-2">Calcular</a>
                 <p class="coder text-center">Da click para empezar</p>                
             </div>
             <div class="col-8">
@@ -105,6 +116,34 @@ const createCalcDOM = () => {
   const caloriasJason = document.querySelector('#insertar-calorias-JSON');
   const inputDias = document.querySelector('#dias');
   let answerText = document.querySelector('#message');
+  const editar = document.querySelector('#editar');
+  const inputManual = document.querySelectorAll('.input-manual')[0];
+  const contains = inputManual.classList.contains('input-active');
+  const tituloAlimento = document.querySelector('#tituloAlimento');
+  const tituloCalorias = document.querySelector('#tituloCalorias');
+    // console.log(tituloCalorias);
+    // console.log(contains);
+
+///// FUNCIÓN PARA TOGGLE TEXT MANUAL
+
+const toggleText = () => {
+  if(tituloAlimento.innerHTML === 'Selecciona el alimento') {
+    tituloAlimento.innerHTML = "Escribe Alimento"
+    tituloCalorias.innerHTML = "Ingresa las Kcalorías del alimento"
+    editar.innerHTML = "Cancelar"
+  } else {
+    tituloAlimento.innerHTML = 'Selecciona el alimento'
+    editar.innerHTML = 'Click para editar alimento'
+  }
+}
+
+
+  //////// INPUTS PARA INGRESAR DATOS MANUALMENTE
+  editar.addEventListener('click', () => {
+    toggleText()
+    inputAlimento.classList.toggle('input-manual');
+    inputManual.classList.toggle('input-active');
+  });
 
   //////// MODAL QUE MUESTRA INFO ACERCA DE
   const modalDeInstrucciones = document.getElementById('instrucciones');
@@ -166,17 +205,17 @@ const createCalcDOM = () => {
 
   buttonStart.addEventListener('click', e => {
     e.preventDefault();
+    console.log(alimento2.value, calorias.value);
     if (inputAlimento.value.length < 3) {
       Swal.fire({
         icon: 'warning',
-        title: 'Oops...',
         text: '¡Elije un Alimento!',
+        title: 'Oops...',
       });
       return; //EARLY RETURN
     }
     $('#results').html(``);
     startApp();
-    console.log(arrayAlimentos);
   });
 
   ///////////////MODAL AUTOMÁTICO PARA DESPLEGAR DIÁLOGO DE CONFIRMACIÓN CON SWEET ALERT
@@ -210,27 +249,7 @@ const createCalcDOM = () => {
   /////// INICIALIZACIÓN DE LA APP DESPUÉS DE HACER CLICK EN EL BOTÓN ////////////////
 
   const startApp = () => {
-    //////// AGREGAR A RESUMEN (CARRITO) DE ALIMENTOS ////////////////////
-
-    // const buttonAgregar = document.getElementById(`add${id}`);
-    // buttonAgregar.addEventListener('click', () => {
-    //   agregarACalculadora(id, calorias);
-    //   console.log(arrayAlimentos);
-    // });
-
-    // const agregarACalculadora = (prodId, calorias) => {
-    //   const item = arrayAlimentos.find(prod => prod.id === prodId && prod.calorias === calorias);
-    //   console.log(item);
-    //   const itemRepetido = calculadoraSummary.find(prod => prod.id === prodId);
-    //   console.log(item, itemRepetido);
-    //   if (item !== itemRepetido) {
-    //     console.log(item.id);
-    //     calculadoraSummary.push(item);
-    //   } else {
-    //     alert('ya repetido');
-    //   }
-    // };
-
+   
     btnLimpiar.classList.add('col-8', 'w-100', 'text-center');
     btnLimpiar.innerHTML = `
             <a href="#" class="btn btn-danger btn-sm clean-app mb-2">Reiniciar Datos</a>
@@ -277,7 +296,7 @@ const createCalcDOM = () => {
 
     arrayAlimentos.unshift(new DataAlimento(nombre, consumo, calorias, id));
 
-    arrayAlimentos[arrayAlimentos.length - 1].calcularCalorias();
+    arrayAlimentos[0].calcularCalorias();
     articles = document.createElement('div');
     articles.classList.add('col-12', 'col-md-6', 'col-lg-4', 'ms-0', 'mb-3');
     articles.innerHTML = `   
@@ -289,9 +308,8 @@ const createCalcDOM = () => {
                 <ul class="list-group list-group-flush lista-conf">
                     <li class="list-group-item list-padding"><span class="lista-negritas">Nombre:<br></span> ${nombre}</li>
                     <li class="list-group-item list-padding"><span class="lista-negritas">Calorías:</span> ${calorias}Kcal. </li>
-                    <li class="list-group-item list-padding"><span class="lista-negritas">Calorías Semanales:<br></span> ${
-                      arrayAlimentos[arrayAlimentos.length - 1].totalCalorias
-                    }KCal.</li>
+                    <li class="list-group-item list-padding"><span class="lista-negritas">Calorías Semanales:<br></span> ${arrayAlimentos[0
+                    ].totalCalorias}KCal.</li>
                 </ul>
                 <p class="message text-center mb-3" id="message"></p> 
                 <a href="https://www.bcn.cl/come_inteligente/tabla_calorias" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary btn-sm">+Info</a>            
@@ -343,30 +361,22 @@ const createCalcDOM = () => {
       }
     }
 
-    ///// FUNCIÓN PARA BUSCAR KCAL ELEVADAS
-
-    // const consumoExcesivo = () => {
-    //   exceso = arrayAlimentos.filter(alimento => alimento.totalCalorias > 5);
-    //   console.log('Tienes un exceso calórico de los siguientes alimentos:');
-    //   for (j = 0; j < exceso.length; j++) {
-    //     arrayAlimentos[j].calcularCalorias();
-    //     console.log(`${exceso[j].nombre}, consumo semanal ${exceso[j].totalCalorias}Kcal.`);
-    //     // return;
-    //   }
-    // }
-
     ///// FUNCIÓN PARA ORDENAR (SORT) DE MAYOR A MENOS EL CONSUMO MAYOR DE CALORIAS
 
     function sortConsumoMayor() {
       arraySorted = arrayAlimentos.sort((a, b) => b.totalCalorias - a.totalCalorias);
-      // console.log('Tus alimentos ordenados de mayor a menor consumo semanal son:');
       for (const alimento of arraySorted) {
-        // console.log(`${alimento.   nombre} con un consumo semanal de ${alimento.totalCalorias}Kcal.`);
       }
     }
+    console.log(arrayAlimentos);
   };
 };
 
 //////// MODAL QUE MUESTRA INFO ACERCA DE
 const modalAcercaDe = document.getElementById('acercade');
 modalAcerca(modalAcercaDe);
+
+////// MODAL BOTÖN CARRITO
+const modalDeCarrito = document.getElementById('resumenAlimentos')
+modalCarrito(modalDeCarrito)
+  

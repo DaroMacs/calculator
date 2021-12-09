@@ -61,7 +61,7 @@ footer .name {
 
   .hero {
     padding-left: 10px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     margin-bottom: 30px;
   }
 
@@ -133,7 +133,7 @@ footer .name {
 .desafio .titulo {
   color: #b8ca2a;
   font-family: 'Poppins', sans-serif;
-  font-weight: 300;
+  font-weight: 600;
 }
 
 .card-title {
@@ -183,4 +183,18 @@ footer .name {
 .underline {
   text-decoration: underline;
   font-weight: 700;
+}
+
+.input-manual {
+  /* visibility: hidden; */
+  display: none;
+
+}
+
+.input-active {
+  display: inline;
+}
+
+#editar {
+  cursor: pointer;
 }
