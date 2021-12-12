@@ -1,5 +1,4 @@
-const calculatorDOM = (divCalc) => {
-            const div = document.createElement('div');
+const calculatorDOM = (divCalc,div) => {
             div.classList.add(
               'row',
               'mt-3',
@@ -40,7 +39,7 @@ const calculatorDOM = (divCalc) => {
                                 </div>
                                 <div class="mt-3 mb-md-3">
                                     <label for="dias">Consumo semanal en días</label>
-                                    <br><select class="rounded" style="width:100px;" name="dias" id="dias" type="range">
+                                    <br><select class="rounded" style="width:50px;" name="dias" id="dias" type="range">
                                         <option value="1">1</option>
                                         <option value="2">2</option>
                                         <option value="3">3</option>

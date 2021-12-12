@@ -104,7 +104,7 @@ footer .name {
 }
 
 .desafio {
-  border-top: 5px solid #e0ff00;
+  border-top: 5px solid #96aa03;
   background: #fff9;
   box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001,
     inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001, inset 0px 0px 0px 0px #fff9,
@@ -113,33 +113,29 @@ footer .name {
 }
 
 .calorias-bg {
-  color: rgb(94, 93, 93);
+  color: rgb(0, 0, 0);
   display: inline;
   padding: 5px 5px;
-  background-color: #b8ca2a;
+  background-color: #96aa03;
   border-radius: 5px;
 }
 
 .cards {
-  border-top: 4px solid #e0ff00;
-  border-bottom: 4px solid #e0ff00;
-}
-
-.card-alt {
-  border-bottom: 4px solid #e0ff00;
-  border-top: 4px solid #e0ff00;
+  border-top: 4px solid #96aa03;
+  border-bottom: 4px solid #96aa03;
 }
 
 .desafio .titulo {
-  color: #b8ca2a;
+  color: #96aa03;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
 }
 
 .card-title {
-  color: #b8ca2a;
+  color: #090a00;
   font-family: 'Poppins', sans-serif;
-  font-weight: 100;
+  font-weight: 600;
+  text-decoration: underline;
 }
 
 .image-styles {

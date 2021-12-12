@@ -61,33 +61,23 @@ export const modalCarrito = modalDeCarrito => {
           <thead>
             <tr>
               <th scope="col">Alimento</th>
-              <th scope="col">KCal.</th>
+              <th scope="col">Cal.</th>
               <th scope="col">Consumo Semanal</th>
-              <th scope="col">KCal. Semanales</th>
+              <th scope="col">Cal. Semanales</th>
               <th scope="col"></th>              
             </tr>
           </thead>
-        <tbody class="align-middle">
-          <tr>            
-            <td>Vans Sk8-Hi MTE Shoes</td>
-            <td>89</td>            
-            <td>178</td>
-            <td>178</td>
-            <td>
-              <a href="#" class="btn btn-danger btn-sm">
-                <i class="fa fa-times"></i>
-              </a>
-            </td>
-          </tr>
+        <tbody class="align-middle" id="contenedorSummary">
         </tbody>
       </table> 
         </div>
-            <div class="px-3 d-flex justify-content-end">
-              <h5 class="precioProducto">Calorías totales: <span id="caloriasTotales">0Kcal.</span></h5>
+            <div class="px-3 text-center">
+              <h5 class="precioProducto">Calorías totales: <span id="caloriasTotales">0 KCal.</span></h5>
             </div>
       <div class="modal-footer d-flex justify-content-between">
-        <button type="button" id="vaciar-carrito" class="btn btn-sm btn-danger align-text-left">Vaciar resumen</button>
-        <button type="button" class="btn btn-sm btn-warning" data-bs-dismiss="modal">Cerrar</button>
+        <div id=vaciarResumen>        
+        </div>
+        <button type="button" class="btn btn-sm btn-warning" data-bs-dismiss="modal">Volver</button>
       </div>
   </div>
     `;
