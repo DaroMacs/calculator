@@ -352,7 +352,7 @@ const toggleText = () => {
   })
   bannerAlimento()
     contadorCarrito.innerText = arrayAlimentos.length
-    caloriasSuma.innerText= (arrayAlimentos.reduce((acc, food) => acc + food.calorias, 0) + ' ' +'KCal')
+    caloriasSuma.innerText= (arrayAlimentos.reduce((acc, food) => acc + food.totalCalorias, 0) + ' ' +'KCal')
   }
   actualizarSummaryCalc();
   console.log(arrayAlimentos);
